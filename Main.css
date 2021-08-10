@@ -84,7 +84,7 @@ li a button {
 }
 
 .parallax {
-  background-image: url("/Website/Pictures/Rubick\'s\ Cube\ Background.png");
+  background-image: url("Pictures/Rubick\'s\ Cube\ Background.png");
   height: 40vw;
   background-attachment: fixed;
   background-position: top;
