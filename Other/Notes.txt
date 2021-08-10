@@ -1,0 +1,7 @@
+note for me:
+backgound=#181818 24
+shadow=#080808 24-16=8
+light=#282828 24+16=40
+up one=#1c1c1c 24+4=28
+down one=#141414 24-4=20
+to hightlight something do: border: 1px solid blue;

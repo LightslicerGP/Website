@@ -1,0 +1,362 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #181818;
+  color: white;
+  margin: 0;
+  padding-bottom: 5vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  background-color: #00e1ff;
+  position: fixed;
+  top: 0;
+  width: 98%;
+  height: auto;
+  border-radius: 0vw 0vw 2vw 2vw;
+}
+
+header .logo {
+  width: auto;
+  height: 4vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  padding: 0vw;
+}
+
+header a{
+  width: 4vw;
+  height: 4vw;
+}
+
+.nav__links {
+  list-style: none;
+  padding: 0vw;
+  margin: 0vw;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0vw 1vw;
+  margin-left: 0vw;
+}
+
+.nav__links li a {
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+.nav__links li a:hover {
+  color: #181818;
+}
+
+li a button {
+  color: #ffffff;
+}
+
+.contact{
+  text-decoration: none;
+  display: flex;
+  font-size: 2vw;
+  color: #ffffff;
+  background-color: #181818;
+  border: none;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 0.5vw 1.5vw;
+  width: auto;
+  height: auto;
+  margin-top: 0.5vw;
+}
+
+.contact:hover {
+  background-color: #ffffff;
+  color: #181818;
+}
+
+.parallax {
+  background-image: url("https://raw.githubusercontent.com/LightslicerGP/LightslicerGP/master/Pictures/Rubick's%20Cube%20Background.png");
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  border-radius: 0vw 0vw 10vw 10vw;
+  border: 0px solid #181818;
+  padding-top: 8vw;
+}
+
+.parallax p {
+  display: flex;
+  justify-content: center;
+  font-size: 10vw;
+  color: black;
+  background: cyan;
+  margin: 14vw;
+  border-radius: 5vw;
+}
+
+.title {
+  margin: auto;
+  margin-top: 4vw;
+  border-radius: 10vw;
+  box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  width: 94vw;
+  height: 42vw;
+}
+
+.title p {
+  width: 50vw;
+  padding: 5vw;
+  margin-left: 2vw;
+  text-align: right;
+  font-size: 5vw;
+}
+
+.title .logo {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 10vw;
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  background: #181818;
+  padding: 2vw;
+  margin: 4vw 4vw;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.intro {
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  background: #1c1c1c;
+  border-radius: 10vw;
+  display: grid;
+  grid: auto / auto auto;
+  grid-gap: 0vw;
+  margin: auto;
+  margin-top: 4vw;
+  width: 94vw;
+}
+
+.subsandviews {
+  display: grid;
+  padding: 7vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.counters {
+  font-size: 5vw;
+  margin-bottom: 0vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+}
+
+.subtitles {
+  font-size: 3vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  padding-top: 0vw;
+  padding-bottom: 2vw;
+}
+
+.introparagraph {
+  margin-left: auto;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  padding: 5vw;
+  text-indent: 5vw;
+  font-size: 2vw;
+}
+
+.carousel{
+  margin-top: 5vw;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  border-radius: 6vw;
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  background: #1c1c1c;
+}
+
+.item {
+  display: inline;
+  align-items: center;
+  object-fit: contain;
+  height: 45vw;
+}
+
+.carouselshowcase {
+  flex: 0 0 5vw;
+  margin: 1vw;
+  height: 43vw;
+  width: 88vw;
+  border-radius: 5vw;
+  object-fit: cover;
+}
+
+.links {
+  margin-top: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  border-radius: 10vw;
+  display: inline-flex;
+  padding: 1vw 3vw;
+  background: #282828;
+  box-shadow: 0vw 0vw 2vw #080808;
+  margin: 0 2vw;
+  transition: all 0.3s ease 0s;
+}
+
+.links a:hover{
+  background: #181818;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+@media (orientation: landscape) {
+  body{
+  padding-bottom: 2vw;
+  }
+  
+  header .logo {
+    height: 4vw;
+    border-radius: 1vw;
+  }
+
+  .li {
+    display: inline-block;
+    padding: 0vw 1vw;
+  }
+
+  .nav__links li a {
+    font-size: 2vw;
+  }
+
+  .cta {
+    font-size: 2vw;
+    padding: 0.5vw 1vw;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .parallax {
+    height: 20vw;
+    background-position: top left;
+    background-size: 50vw;
+    border-radius: 5vw;
+    padding-top: 8vw;
+    width: 40vw;
+    order: 1;
+  }
+
+  .parallax p {
+    font-size: 7vw;
+    margin: 5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+  }
+
+  .title {
+    border-radius: 5vw;
+    width: 45vw;
+    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+    order: 2;
+  }
+  
+  .title p {
+    width: 30vw;
+    padding: 2vw;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+  }
+  
+  .title .logo {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 4vw;
+    padding: 1vw;
+    margin: 2vw 3vw;
+    margin-left: auto;
+  }
+
+  .intro {
+    border-radius: 5vw;
+    width: 40vw;
+    margin: 0vw;
+    margin-top: 3vw;
+    order: 4;
+  }
+  
+  .subsandviews {
+    padding: 3vw;
+  }
+  
+  .counters {
+    font-size: 3vw;
+  }
+  
+  .subtitles {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+  }
+  
+  .introparagraph {
+    padding: 3vw;
+    text-indent: 2vw;
+    font-size: 1vw;
+  }
+  .carousel{
+    order: 3;
+  }
+
+  .container {
+    width: 46vw;
+    border-radius: 4vw;
+    order: 3;
+  }
+  
+  .container a{
+    height: 23vw;
+  }
+
+  .carouselshowcase {
+    height: 21vw;
+    width: 44vw;
+    border-radius: 3vw;
+  }
+}
