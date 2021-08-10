@@ -140,13 +140,14 @@ li a button {
     height: 20vw;
     background-position: top left;
     background-size: 50vw;
-    border-radius: 7vw;
+    border-radius: 5vw;
     padding-top: 8vw;
-    width: 40vw;
+    width: 45vw;
+    order: 1;
   }
 
   .parallax p {
-    font-size: 7vw;
+    font-size: 6vw;
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
