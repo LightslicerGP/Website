@@ -84,7 +84,7 @@ li a button {
 }
 
 .parallax {
-  background-image: url("https://lightslicergp.github.io/Website/Pictures/My Future.jpg");
+  background-image: url("./Pictures/Rubick's_Cube_Background.png");
   height: 40vw;
   background-attachment: fixed;
   background-position: top;
