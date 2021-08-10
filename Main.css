@@ -30,7 +30,7 @@ header .logo {
   padding: 0vw;
 }
 
-header a{
+header a {
   width: 4vw;
   height: 4vw;
 }
@@ -62,7 +62,7 @@ li a button {
   color: #ffffff;
 }
 
-.contact{
+.contact {
   text-decoration: none;
   display: flex;
   font-size: 2vw;
@@ -153,7 +153,6 @@ li a button {
   display: grid;
   padding: 7vw;
   margin: auto;
-  display: flex;
   flex-direction: column;
   align-content: center;
 }
@@ -178,11 +177,12 @@ li a button {
   margin-top: 0vw;
   margin-bottom: 0vw;
   padding: 5vw;
+  padding-left: 0vw;
   text-indent: 5vw;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
-.carousel{
+.carousel {
   margin-top: 5vw;
 }
 
@@ -230,7 +230,7 @@ li a button {
   transition: all 0.3s ease 0s;
 }
 
-.links a:hover{
+.links a:hover {
   background: #181818;
   transition: all 0.3s ease 0s;
 }
@@ -240,10 +240,10 @@ li a button {
 
 
 @media (orientation: landscape) {
-  body{
-  padding-bottom: 2vw;
+  body {
+    padding-bottom: 2vw;
   }
-  
+
   header .logo {
     height: 4vw;
     border-radius: 1vw;
@@ -297,14 +297,14 @@ li a button {
     margin-bottom: 0vw;
     order: 2;
   }
-  
+
   .title p {
     width: 30vw;
     padding: 2vw;
     margin-left: 2vw;
     font-size: 2.5vw;
   }
-  
+
   .title .logo {
     width: 13vw;
     height: 13vw;
@@ -321,26 +321,27 @@ li a button {
     margin-top: 3vw;
     order: 4;
   }
-  
+
   .subsandviews {
     padding: 3vw;
   }
-  
+
   .counters {
     font-size: 3vw;
   }
-  
+
   .subtitles {
     font-size: 2vw;
     padding-bottom: 1vw;
   }
-  
+
   .introparagraph {
     padding: 3vw;
+    padding-left: 0vw;
     text-indent: 2vw;
-    font-size: 1vw;
   }
-  .carousel{
+
+  .carousel {
     order: 3;
   }
 
@@ -349,8 +350,8 @@ li a button {
     border-radius: 4vw;
     order: 3;
   }
-  
-  .container a{
+
+  .container a {
     height: 23vw;
   }
 
