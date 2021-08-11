@@ -92,7 +92,8 @@ li a button {
   background-size: 100vw;
   border-radius: 0vw 0vw 10vw 10vw;
   border: 0px solid #181818;
-  padding-top: 8vw;
+  padding-top: 5vw;
+  z-index: 0;
 }
 
 .parallax p {
@@ -100,9 +101,11 @@ li a button {
   justify-content: center;
   font-size: 10vw;
   color: black;
-  background: cyan;
   margin: 14vw;
   border-radius: 5vw;
+  background: rgba( 255, 255, 255, 0.10 );
+  backdrop-filter: blur( 10.0px );
+  border: 1px solid rgba( 255, 255, 255, 0.25 );
 }
 
 
@@ -144,6 +147,7 @@ li a button {
     padding-top: 8vw;
     width: 45vw;
     order: 1;
+    z-index: -1;
   }
 
   .parallax p {
