@@ -36,40 +36,25 @@ header a {
   height: 4vw;
 }
 
-.nav__links {
+.navbar {
   list-style: none;
   padding: 0vw;
   margin: 0vw;
 }
 
-.nav__links li {
+.navbar li {
   display: inline-block;
   padding: 0vw 1vw;
   margin-left: 0vw;
 }
 
-.links a {
-  border-radius: 10vw;
-  display: inline-flex;
-  padding: 1vw 3vw;
-  background: #282828;
-  box-shadow: 0vw 0vw 2vw #080808;
-  margin: 0 2vw;
-  transition: all 0.3s ease 0s;
-}
-
-.nav__links li a {
+.navbar a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
 }
 
-.links a:hover {
-  background: #181818;
-  transition: all 0.3s ease 0s;
-}
-
-.nav__links li a:hover {
+.navbar a:hover {
   color: #181818;
 }
 
@@ -114,8 +99,8 @@ header a {
   margin: 14vw;
   border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(1vw);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(0.5vw);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
 .title {
@@ -196,7 +181,7 @@ header a {
 }
 
 .carousel {
-  margin-top: 5vw;
+  margin-top: 3vw;
 }
 
 .container {
@@ -256,7 +241,7 @@ header a {
     height: 23vw;
   }
 
-  .nav__links li a {
+  .navbar a {
     font-size: 2vw;
   }
 
@@ -321,7 +306,7 @@ header a {
     border-radius: 5vw;
     width: 40vw;
     margin: 0vw;
-    margin-top: 3vw;
+    margin-top: 2vw;
     order: 4;
   }
 

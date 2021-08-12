@@ -21,6 +21,7 @@ header {
   width: 98%;
   height: auto;
   border-radius: 0vw 0vw 2vw 2vw;
+  z-index: 1;
 }
 
 header .logo {
@@ -36,25 +37,25 @@ header a {
   height: 4vw;
 }
 
-.nav__links {
+.navbar {
   list-style: none;
   padding: 0vw;
   margin: 0vw;
 }
 
-.nav__links li {
+.navbar li {
   display: inline-block;
   padding: 0vw 1vw;
   margin-left: 0vw;
 }
 
-.nav__links li a {
+.navbar a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
 }
 
-.nav__links li a:hover {
+.navbar a:hover {
   color: #181818;
 }
 
@@ -78,6 +79,12 @@ header a {
   color: #181818;
 }
 
+.bottom {
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
 .parallax {
   background-image: url("../Pictures/My_Future.jpeg");
   height: 40vw;
@@ -99,8 +106,8 @@ header a {
   margin: 14vw;
   border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(1vw);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(0.5vw);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
 .channel {
@@ -173,7 +180,7 @@ header a {
     padding: 0vw 1vw;
   }
 
-  .nav__links li a {
+  .navbar a {
     font-size: 2vw;
   }
 
@@ -186,7 +193,7 @@ header a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
   }
   
   .parallax {
@@ -195,6 +202,8 @@ header a {
     background-size: 56vw;
     border-radius: 5vw;
     padding-top: 6vw;
+    margin-left: auto;
+    margin-right: 2vw;
     width: 55vw;
     height: 19vw;
     z-index: -1;
@@ -205,6 +214,12 @@ header a {
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
+  }
+
+  .surround {
+    height: 5vw;
+    margin-right: auto;
+    margin-left: 3vw;
   }
 
   .channel {
@@ -230,10 +245,11 @@ header a {
     padding: 1vw;
     margin: 0vw;
     padding-bottom: 0vw;
+    padding-top: 2vw;
   }
   
   .channel p {
-    font-size: 2vw;
+    font-size: 100%;
     text-indent: 0vw;
     padding: 1vw;
     margin: 0vw;
@@ -242,9 +258,10 @@ header a {
   .info {
     border-radius: 5vw;
     padding: 4vw;
-    width: 70vw;
+    width: 50vw;
     margin: 0vw;
     margin-top: 4vw;
+    margin-left: 3vw;
     flex-direction: column;
   }
   
