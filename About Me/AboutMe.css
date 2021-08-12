@@ -188,14 +188,15 @@ header a {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-
+  
   .parallax {
     height: 20vw;
-    background-position: top left;
-    background-size: 50vw;
+    background-position: 11% 2%;
+    background-size: 56vw;
     border-radius: 5vw;
-    padding-top: 8vw;
-    width: 45vw;
+    padding-top: 6vw;
+    width: 55vw;
+    height: 19vw;
     z-index: -1;
   }
 
@@ -211,7 +212,7 @@ header a {
     background: #1c1c1c;
     width: 25vw;
     margin: 0vw;
-    margin-top: 8vw;
+    margin-top: 9vw;
   }
 
   .channel img {
@@ -239,20 +240,17 @@ header a {
   }
   
   .info {
-    box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-    border-radius: 10vw;
-    display: flex;
-    background: #1c1c1c;
+    border-radius: 5vw;
     padding: 4vw;
-    width: 80vw;
-    margin: auto;
+    width: 70vw;
+    margin: 0vw;
     margin-top: 4vw;
     flex-direction: column;
   }
   
   .info p{
     margin: 0vw;
-    font-size: 2.5vw;
-    text-indent: 5vw;
+    font-size: 90%;
+    text-indent: 3vw;
   }
 }
