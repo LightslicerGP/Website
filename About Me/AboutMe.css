@@ -5,9 +5,8 @@
 
 body {
   background: #181818;
-  color: white;
   margin: 0;
-  padding-bottom: 5vw;
+  padding-bottom: 3vw;
 }
 
 header {
@@ -45,8 +44,7 @@ header a {
 
 .navbar li {
   display: inline-block;
-  padding: 0vw 1vw;
-  margin-left: 0vw;
+  padding: 0vw 0.5vw;
 }
 
 .navbar a {
