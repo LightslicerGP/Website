@@ -1,10 +1,10 @@
 * {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 
 body {
   background: #181818;
-  color: white;
   margin: 0;
   padding-bottom: 5vw;
 }
@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1vw;
-  background-color: #00e1ff;
+  background-color: #00e0ff;
   position: fixed;
   top: 0;
   width: 98%;
@@ -48,26 +48,35 @@ header a {
   margin-left: 0vw;
 }
 
+.links a {
+  border-radius: 10vw;
+  display: inline-flex;
+  padding: 1vw 3vw;
+  background: #282828;
+  box-shadow: 0vw 0vw 2vw #080808;
+  margin: 0 2vw;
+  transition: all 0.3s ease 0s;
+}
+
 .nav__links li a {
-  color: #ffffff;
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
+}
+
+.links a:hover {
+  background: #181818;
+  transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover {
   color: #181818;
 }
 
-li a button {
-  color: #ffffff;
-}
-
 .contact {
   text-decoration: none;
   display: flex;
   font-size: 2vw;
-  color: #ffffff;
   background-color: #181818;
   border: none;
   border-radius: 2vw;
@@ -101,12 +110,12 @@ li a button {
   display: flex;
   justify-content: center;
   font-size: 10vw;
-  color: black;
+  color: #000000;
   margin: 14vw;
   border-radius: 5vw;
-  background: rgba( 255, 255, 255, 0.10 );
-  backdrop-filter: blur( 10.0px );
-  border: 1px solid rgba( 255, 255, 255, 0.25 );
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1vw);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .title {
@@ -183,7 +192,7 @@ li a button {
   padding: 5vw;
   padding-left: 0vw;
   text-indent: 5vw;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 .carousel {
@@ -224,21 +233,6 @@ li a button {
   justify-content: center;
 }
 
-.links a {
-  border-radius: 10vw;
-  display: inline-flex;
-  padding: 1vw 3vw;
-  background: #282828;
-  box-shadow: 0vw 0vw 2vw #080808;
-  margin: 0 2vw;
-  transition: all 0.3s ease 0s;
-}
-
-.links a:hover {
-  background: #181818;
-  transition: all 0.3s ease 0s;
-}
-
 
 
 
@@ -256,6 +250,10 @@ li a button {
   .li {
     display: inline-block;
     padding: 0vw 1vw;
+  }
+
+  .container a {
+    height: 23vw;
   }
 
   .nav__links li a {
@@ -279,7 +277,7 @@ li a button {
     background-position: top left;
     background-size: 50vw;
     border-radius: 5vw;
-    padding-top: 8vw;
+    padding-top: 7vw;
     width: 45vw;
     order: 1;
     z-index: -1;
@@ -296,7 +294,7 @@ li a button {
     border-radius: 5vw;
     width: 45vw;
     height: 20vw;
-    margin-top: 8vw;
+    margin-top: 7vw;
     margin-left: 0vw;
     margin-right: 0vw;
     margin-bottom: 0vw;
@@ -344,6 +342,7 @@ li a button {
     padding: 3vw;
     padding-left: 0vw;
     text-indent: 2vw;
+    font-size: 1.2vw;
   }
 
   .carousel {
@@ -354,10 +353,6 @@ li a button {
     width: 46vw;
     border-radius: 4vw;
     order: 3;
-  }
-
-  .container a {
-    height: 23vw;
   }
 
   .carouselshowcase {

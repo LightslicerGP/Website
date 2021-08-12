@@ -1,5 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 
 body {
@@ -14,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1vw;
-  background-color: #00e1ff;
+  background-color: #00e0ff;
   position: fixed;
   top: 0;
   width: 98%;
@@ -30,7 +31,7 @@ header .logo {
   padding: 0vw;
 }
 
-header a{
+header a {
   width: 4vw;
   height: 4vw;
 }
@@ -48,7 +49,6 @@ header a{
 }
 
 .nav__links li a {
-  color: #ffffff;
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
@@ -58,15 +58,10 @@ header a{
   color: #181818;
 }
 
-li a button {
-  color: #ffffff;
-}
-
-.contact{
+.contact {
   text-decoration: none;
   display: flex;
   font-size: 2vw;
-  color: #ffffff;
   background-color: #181818;
   border: none;
   border-radius: 2vw;
@@ -103,9 +98,64 @@ li a button {
   color: black;
   margin: 14vw;
   border-radius: 5vw;
-  background: rgba( 255, 255, 255, 0.10 );
-  backdrop-filter: blur( 10.0px );
-  border: 1px solid rgba( 255, 255, 255, 0.25 );
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1vw);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.channel {
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  border-radius: 10vw;
+  display: flex;
+  background: #1c1c1c;
+  width: 85vw;
+  margin: auto;
+  margin-top: 4vw;
+  padding: 2vw;
+  flex-direction: column;
+}
+
+.channel img {
+  width: 85vw;
+  height: auto;
+  padding: 0vw;
+  margin: auto;
+  border-radius: 10vw;
+}
+
+.channel a {
+  height: 85vw;
+  padding: 0vw;
+  margin: auto;
+  border-radius: 10vw;
+}
+
+.channel h1 {
+  font-size: 5vw;
+  text-indent: 4vw;
+}
+
+.channel p {
+  font-size: 3vw;
+  text-indent: 4vw;
+}
+
+.info {
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  border-radius: 10vw;
+  display: flex;
+  background: #1c1c1c;
+  padding: 4vw;
+  width: 80vw;
+  margin: auto;
+  margin-top: 4vw;
+  flex-direction: column;
+}
+
+.info p{
+  margin: 0vw;
+  font-size: 2.5vw;
+  text-indent: 5vw;
 }
 
 
@@ -146,7 +196,6 @@ li a button {
     border-radius: 5vw;
     padding-top: 8vw;
     width: 45vw;
-    order: 1;
     z-index: -1;
   }
 
@@ -157,72 +206,53 @@ li a button {
     padding: 1vw;
   }
 
-  .title {
+  .channel {
     border-radius: 5vw;
-    width: 45vw;
-    height: 20vw;
+    background: #1c1c1c;
+    width: 25vw;
+    margin: 0vw;
     margin-top: 8vw;
-    margin-left: 0vw;
-    margin-right: 0vw;
-    margin-bottom: 0vw;
   }
-  
-  .title p {
-    width: 30vw;
-    padding: 2vw;
-    margin-left: 2vw;
-    font-size: 2.5vw;
-  }
-  
-  .title .logo {
-    width: 13vw;
-    height: 13vw;
+
+  .channel img {
+    width: 25vw;
     border-radius: 4vw;
+  }
+  
+  .channel a {
+    height: 25vw;
+  }
+  
+  .channel h1 {
+    font-size: 150%;
+    text-indent: 0vw;
     padding: 1vw;
-    margin: 2vw 3vw;
-    margin-left: auto;
-  }
-
-  .intro {
-    border-radius: 5vw;
-    width: 40vw;
+    margin: 0vw;
+    padding-bottom: 0vw;
   }
   
-  .subsandviews {
-    padding: 3vw;
-  }
-  
-  .counters {
-    font-size: 3vw;
-  }
-  
-  .subtitles {
+  .channel p {
     font-size: 2vw;
-    padding-bottom: 1vw;
+    text-indent: 0vw;
+    padding: 1vw;
+    margin: 0vw;
   }
   
-  .introparagraph {
-    padding: 3vw;
-    text-indent: 2vw;
-    font-size: 1vw;
-  }
-
-  .carousel{
-    margin-top: 5vw;
-  }
-
-  .container {
-    width: 46vw;
-    border-radius: 4vw;
+  .info {
+    box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+    border-radius: 10vw;
+    display: flex;
+    background: #1c1c1c;
+    padding: 4vw;
+    width: 80vw;
+    margin: auto;
+    margin-top: 4vw;
+    flex-direction: column;
   }
   
-  .container a{
-    height: 23vw;
-  }
-
-  .carouselshowcase {
-    height: 21vw;
-    width: 44vw;
-    border-radius: 3vw;
+  .info p{
+    margin: 0vw;
+    font-size: 2.5vw;
+    text-indent: 5vw;
   }
 }
