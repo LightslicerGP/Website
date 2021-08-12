@@ -218,6 +218,19 @@ header a {
   justify-content: center;
 }
 
+.links a {
+  border-radius: 10vw;
+  display: inline-flex;
+  padding: 1vw 3vw;
+  background: #282828;
+  box-shadow: 0vw 0vw 2vw #080808;
+  margin: 0 2vw;
+}
+
+.links a:hover{
+  background: #181818;
+}
+
 
 
 
