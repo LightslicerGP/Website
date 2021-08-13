@@ -94,7 +94,6 @@ header a {
   border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
-  box-shadow: 0vw 0vw 1vw #000000;
 }
 
 .parallax p {
@@ -103,7 +102,7 @@ header a {
   font-size: 10vw;
   color: black;
   margin: 14vw;
-  border-radius: 5vw;
+  border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5vw);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
@@ -116,7 +115,7 @@ header a {
   background: #1c1c1c;
   width: 85vw;
   margin: auto;
-  margin-top: 4vw;
+  margin-top: 5vw;
   padding: 2vw;
   flex-direction: column;
 }
@@ -142,6 +141,7 @@ header a {
 }
 
 .channel p {
+  margin-top: 0vw;
   font-size: 3vw;
   text-indent: 4vw;
 }
@@ -154,7 +154,7 @@ header a {
   padding: 4vw;
   width: 80vw;
   margin: auto;
-  margin-top: 4vw;
+  margin-top: 5vw;
   flex-direction: column;
 }
 
