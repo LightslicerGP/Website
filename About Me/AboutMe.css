@@ -94,6 +94,7 @@ header a {
   border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
+  box-shadow: 0vw 0vw 1vw #000000;
 }
 
 .parallax p {
