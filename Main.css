@@ -104,7 +104,7 @@ header a {
 
 .title {
   margin: auto;
-  margin-top: 4vw;
+  margin-top: 5vw;
   border-radius: 10vw;
   box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
   background: #141414;
@@ -135,14 +135,12 @@ header a {
 }
 
 .intro {
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-  background: #1c1c1c;
   border-radius: 10vw;
   display: grid;
   grid: auto / auto auto;
   grid-gap: 0vw;
   margin: auto;
-  margin-top: 4vw;
+  margin-top: 5vw;
   width: 92vw;
 }
 
