@@ -94,14 +94,16 @@ header a {
   border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
+  display: flex;
 }
 
 .parallax p {
   display: flex;
   justify-content: center;
   font-size: 10vw;
-  color: black;
-  margin: 14vw;
+  color: #000000;
+  margin: auto;
+  width: 60vw;
   border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5vw);

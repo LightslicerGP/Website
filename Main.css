@@ -88,6 +88,7 @@ header a {
   border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
+  display: flex;
 }
 
 .parallax p {
@@ -95,7 +96,8 @@ header a {
   justify-content: center;
   font-size: 10vw;
   color: #000000;
-  margin: 14vw;
+  margin: auto;
+  width: 50vw;
   border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5vw);
@@ -268,7 +270,7 @@ header a {
   }
 
   .parallax {
-    height: 20vw;
+    height: auto;
     background-position: top left;
     background-size: 50vw;
     border-radius: 5vw;
@@ -279,6 +281,7 @@ header a {
   }
 
   .parallax p {
+    height: auto;
     font-size: 6vw;
     margin: 5vw;
     border-radius: 3vw;

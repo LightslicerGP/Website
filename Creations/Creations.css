@@ -79,7 +79,9 @@ header a {
 
 .bottom {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: space-evenly;
   z-index: -1;
 }
 
@@ -108,6 +110,23 @@ header a {
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
+.item {
+  display: flex;
+  width: 45vw;
+  flex-wrap: wrap;
+  padding-top: 3vw;
+}
+
+.item img {
+  width: 6vw;
+  height: 6vw;
+  padding: 1vw;
+}
+
+.type {
+  padding: auto;
+  margin: auto;
+}
 
 
 
@@ -136,11 +155,13 @@ header a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 6vw;
   }
   
   .parallax {
-    height: 19.5vw;
+    height: auto;
+    padding: 0vw;
     background-position: 0% 8%;
     background-size: 60vw;
     border-radius: 0vw 0vw 5vw 5vw;
@@ -154,5 +175,23 @@ header a {
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
+  }
+
+  .item {
+    display: flex;
+    width: 20vw;
+    flex-wrap: wrap;
+    padding-top: 3vw;
+  }
+  
+  .item img {
+    width: 6vw;
+    height: 6vw;
+    padding: 1vw;
+  }
+  
+  .type {
+    padding: auto;
+    margin: auto;
   }
 }
