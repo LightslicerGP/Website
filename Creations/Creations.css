@@ -159,11 +159,26 @@ header a {
     padding: 0.5vw 1vw;
   }
 
+  .bottom {
+    padding-top: 6vw;
+  }
+
   .parallax {
-    width: 45vw;
+    width: 50vw;
+    height: 17vw;
+    padding-top: 0vw;
+    border-radius: 5vw;
+    border-radius: 0vw 0vw 5vw 5vw;
+    background-position: 0% 10%;
+    background-size: 55vw;
   }
 
   .parallax p{
-    font-size: 7vw;
+    font-size: 6vw;
+    width: 37vw;
+  }
+
+  .item {
+    height: 25vw;
   }
 }
