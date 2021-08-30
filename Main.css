@@ -15,6 +15,7 @@ header {
   align-items: center;
   padding: 1vw;
   background-color: #00e0ff;
+  box-shadow: 0vw 0vw 2vw #00e1ff80;
   position: fixed;
   top: 0;
   width: 98%;
@@ -94,7 +95,7 @@ header a {
 .parallax p {
   display: flex;
   justify-content: center;
-  font-size: 10vw;
+  font-size: 12vw;
   color: #000000;
   margin: auto;
   width: 50vw;
@@ -170,9 +171,7 @@ header a {
 }
 
 .introparagraph {
-  margin-left: auto;
-  margin-top: 0vw;
-  margin-bottom: 0vw;
+  margin: auto;
   padding: 5vw;
   padding-left: 0vw;
   text-indent: 5vw;
@@ -211,7 +210,7 @@ header a {
 }
 
 .links {
-  margin-top: 2vw;
+  margin-top: 3vw;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -278,6 +277,7 @@ header a {
     width: 45vw;
     order: 1;
     z-index: -1;
+    border: 10px solid blue;
   }
 
   .parallax p {
@@ -340,7 +340,7 @@ header a {
     padding: 3vw;
     padding-left: 0vw;
     text-indent: 2vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
 
   .carousel {

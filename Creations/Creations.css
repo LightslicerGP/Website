@@ -15,6 +15,7 @@ header {
   align-items: center;
   padding: 1vw;
   background-color: #00e0ff;
+  box-shadow: 0vw 0vw 2vw #00e1ff80;
   position: fixed;
   top: 0;
   width: 98%;
@@ -164,7 +165,7 @@ header a {
   }
 
   .parallax {
-    width: 50vw;
+    width: 45vw;
     height: 17vw;
     padding-top: 0vw;
     border-radius: 5vw;
@@ -180,5 +181,6 @@ header a {
 
   .item {
     height: 25vw;
+    margin-top: 3vw;
   }
 }

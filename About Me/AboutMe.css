@@ -15,6 +15,7 @@ header {
   align-items: center;
   padding: 1vw;
   background-color: #00e0ff;
+  box-shadow: 0vw 0vw 3vw #00e1ff80;
   position: fixed;
   top: 0;
   width: 98%;
