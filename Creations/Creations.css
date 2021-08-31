@@ -80,7 +80,7 @@ header a {
 
 .bottom {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   z-index: -1;
@@ -174,7 +174,7 @@ header a {
     background-size: 55vw;
   }
 
-  .parallax p{
+  .parallax p {
     font-size: 6vw;
     width: 37vw;
   }

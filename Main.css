@@ -225,7 +225,7 @@ header a {
   margin: 0 2vw;
 }
 
-.links a:hover{
+.links a:hover {
   background: #181818;
 }
 
@@ -277,7 +277,6 @@ header a {
     width: 45vw;
     order: 1;
     z-index: -1;
-    border: 10px solid blue;
   }
 
   .parallax p {

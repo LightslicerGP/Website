@@ -161,7 +161,7 @@ header a {
   flex-direction: column;
 }
 
-.info p{
+.info p {
   margin: 0vw;
   font-size: 2.5vw;
   text-indent: 5vw;
@@ -197,7 +197,7 @@ header a {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  
+
   .parallax {
     height: 20vw;
     background-position: 11% 2%;
@@ -236,11 +236,11 @@ header a {
     width: 25vw;
     border-radius: 4vw;
   }
-  
+
   .channel a {
     height: 25vw;
   }
-  
+
   .channel h1 {
     font-size: 150%;
     text-indent: 0vw;
@@ -249,14 +249,14 @@ header a {
     padding-bottom: 0vw;
     padding-top: 2vw;
   }
-  
+
   .channel p {
     font-size: 100%;
     text-indent: 0vw;
     padding: 1vw;
     margin: 0vw;
   }
-  
+
   .info {
     border-radius: 5vw;
     padding: 4vw;
@@ -266,8 +266,8 @@ header a {
     margin-left: 3.5vw;
     flex-direction: column;
   }
-  
-  .info p{
+
+  .info p {
     margin: 0vw;
     font-size: 90%;
     text-indent: 3vw;
