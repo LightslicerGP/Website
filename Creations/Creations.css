@@ -3,6 +3,18 @@
   color: #ffffff;
 }
 
+@keyframes navfade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 body {
   background: #181818;
   margin: 0;
@@ -35,6 +47,7 @@ header .logo {
 header a {
   width: 4vw;
   height: 4vw;
+  animation: 0.5s ease-out 0s 1 navfade;
 }
 
 .navbar {
@@ -46,6 +59,7 @@ header a {
 .navbar li {
   display: inline-block;
   padding: 0vw 0.5vw;
+  animation: 0.5s ease-out 0s 1 navfade;
 }
 
 .navbar a {
@@ -137,6 +151,9 @@ header a {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 
