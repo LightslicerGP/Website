@@ -138,6 +138,7 @@ header a {
   border-radius: 5vw;
   padding: 3vw;
   margin-top: 5vw;
+  font-size: 3vw;
 }
 
 .item img {
@@ -149,6 +150,8 @@ header a {
 .type {
   padding: auto;
   margin: auto;
+  height: auto;
+  width: 17vw;
 }
 
 a {
@@ -197,7 +200,7 @@ a {
   }
 
   .item {
-    height: 25vw;
     margin-top: 3vw;
+    font-size: 2vw;
   }
 }
