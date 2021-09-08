@@ -93,7 +93,7 @@ header a {
 }
 
 .parallax {
-  background-image: url("../Pictures/FH3_End.png");
+  background-image: url("../../Pictures/FH3_End.png");
   height: 40vw;
   background-attachment: fixed;
   background-position: top;

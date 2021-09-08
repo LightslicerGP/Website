@@ -132,11 +132,11 @@ header a {
 .item {
   display: flex;
   width: 35vw;
-  height: 30vw;
+  height: auto;
   flex-wrap: wrap;
   box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
   border-radius: 5vw;
-  padding: 3vw;
+  padding: 4vw;
   margin-top: 5vw;
   font-size: 3vw;
 }
@@ -148,10 +148,10 @@ header a {
 }
 
 .type {
-  padding: auto;
+  padding: 0vw;
   margin: auto;
   height: auto;
-  width: 17vw;
+  width: 20vw;
 }
 
 a {
