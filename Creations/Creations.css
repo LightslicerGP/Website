@@ -44,6 +44,11 @@ header .logo {
   padding: 0vw;
 }
 
+a {
+  text-decoration: none;
+  border-radius: 5vw;
+}
+
 header a {
   width: 4vw;
   height: 4vw;
@@ -108,10 +113,10 @@ header a {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 125vw;
   border-radius: 0vw 0vw 10vw 10vw;
   border: 0px solid #181818;
-  padding-top: 5vw;
+  padding-top: 6vw;
   z-index: 0;
   display: flex;
 }
@@ -121,12 +126,24 @@ header a {
   justify-content: center;
   font-size: 10vw;
   color: black;
-  margin: auto;
   width: 60vw;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 1vw;
   border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5vw);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
+}
+
+#readme {
+  font-size: 2vw;
+}
+
+#license {
+  font-size: 2vw;
 }
 
 .item {
@@ -148,14 +165,27 @@ header a {
 }
 
 .type {
-  padding: 0vw;
-  margin: auto;
-  height: auto;
-  width: 20vw;
+  margin: 1vw;
+  margin-left: auto;
+  margin-right: 0;
+  padding: auto;
+  padding-bottom: 0vw;
+  margin: 0vw;
+  height: 10vw;
+  width: 65%;
+  height: 10vw;
+  border-radius: 2vw;
+  box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
 }
 
-a {
-  text-decoration: none;
+.name {
+  width: 100%;
+  font-size: 110%;
+  margin-bottom: 0vw;
+}
+
+.description {
+  margin-bottom: 0vw;
 }
 
 
@@ -186,8 +216,8 @@ a {
 
   .parallax {
     width: 45vw;
-    height: 17vw;
-    padding-top: 0vw;
+    height: 30vw;
+    margin-top: 0vw;
     border-radius: 5vw;
     border-radius: 0vw 0vw 5vw 5vw;
     background-position: 0% 10%;
@@ -197,6 +227,8 @@ a {
   .parallax p {
     font-size: 6vw;
     width: 37vw;
+    margin: 5vw;
+    margin-top: auto;
   }
 
   .item {
