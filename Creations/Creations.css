@@ -128,6 +128,7 @@ header a {
   color: black;
   width: 60vw;
   height: auto;
+  font-weight: 90;
   flex-direction: column;
   align-items: center;
   margin: auto;
