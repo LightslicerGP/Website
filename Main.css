@@ -1,6 +1,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+  font-weight: 600;
 }
 
 @keyframes navfade {
@@ -66,6 +67,7 @@ header a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
+  font-weight: 300;
 }
 
 .navbar a:hover {
@@ -85,6 +87,7 @@ header a {
   width: auto;
   height: auto;
   margin-top: 0.5vw;
+  font-weight: 300;
 }
 
 .contact:hover {
@@ -136,6 +139,7 @@ header a {
   margin-left: 2vw;
   text-align: right;
   font-size: 5vw;
+  font-weight: 300;
 }
 
 .title .logo {
@@ -173,6 +177,7 @@ header a {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 0vw;
+  font-weight: 300;
 }
 
 .subtitles {
@@ -181,6 +186,7 @@ header a {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 2vw;
+  font-weight: 100;
 }
 
 .introparagraph {
@@ -189,6 +195,7 @@ header a {
   padding-left: 0vw;
   text-indent: 5vw;
   font-size: 2vw;
+  font-weight: 100;
 }
 
 .carousel {
@@ -337,6 +344,7 @@ header a {
 
   .subsandviews {
     padding: 3vw;
+    font-weight: 300;
   }
 
   .counters {

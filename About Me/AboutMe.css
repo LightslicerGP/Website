@@ -1,6 +1,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+  font-weight: 600;
 }
 
 @keyframes navfade {
@@ -66,6 +67,7 @@ header a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
+  font-weight: 300;
 }
 
 .navbar a:hover {
@@ -85,6 +87,7 @@ header a {
   width: auto;
   height: auto;
   margin-top: 0.5vw;
+  font-weight: 300;
 }
 
 .contact:hover {
@@ -161,6 +164,7 @@ header a {
   margin-top: 0vw;
   font-size: 3vw;
   text-indent: 4vw;
+  font-weight: 300;
 }
 
 .info {
@@ -177,8 +181,9 @@ header a {
 
 .info p {
   margin: 0vw;
-  font-size: 2.5vw;
+  font-size: 3vw;
   text-indent: 5vw;
+  font-weight: 100;
 }
 
 

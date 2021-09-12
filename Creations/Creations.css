@@ -1,6 +1,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+  font-weight: 600;
 }
 
 @keyframes navfade {
@@ -71,6 +72,7 @@ header a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   font-size: 3vw;
+  font-weight: 300;
 }
 
 .navbar a:hover {
@@ -90,6 +92,7 @@ header a {
   width: auto;
   height: auto;
   margin-top: 0.5vw;
+  font-weight: 300;
 }
 
 .contact:hover {
@@ -128,7 +131,6 @@ header a {
   color: black;
   width: 60vw;
   height: auto;
-  font-weight: 90;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -139,12 +141,9 @@ header a {
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
-#readme {
-  font-size: 2vw;
-}
-
-#license {
-  font-size: 2vw;
+.parallax a {
+  font-weight: 300;
+  font-size: 3vw;
 }
 
 .item {
