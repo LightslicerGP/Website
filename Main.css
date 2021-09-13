@@ -103,7 +103,6 @@ header a {
   background-repeat: no-repeat;
   background-size: 100vw;
   border-radius: 0vw 0vw 10vw 10vw;
-  border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
   display: flex;
@@ -118,7 +117,7 @@ header a {
   width: 50vw;
   border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(0.5vw);
+  backdrop-filter: blur(5px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 

@@ -61,6 +61,7 @@ header a {
   display: inline-block;
   padding: 0vw 0.5vw;
   animation: 0.5s ease-out 0s 1 navfade;
+  align-content: center;
 }
 
 .navbar a {
@@ -70,8 +71,37 @@ header a {
   font-weight: 300;
 }
 
+.dropdown-content a {
+  color: #000000;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-size: 2vw;
+  line-height: 1vw;
+  display: flex;
+  text-align: left;
+  padding: 1vw;
+  font-weight: 100;
+}
+
 .navbar a:hover {
   color: #181818;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 25vw;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
 .contact {
@@ -103,7 +133,6 @@ header a {
   background-repeat: no-repeat;
   background-size: 100vw;
   border-radius: 0vw 0vw 10vw 10vw;
-  border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
   display: flex;
@@ -118,7 +147,7 @@ header a {
   width: 50vw;
   border-radius: 4vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(0.5vw);
+  backdrop-filter: blur(5px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
@@ -146,7 +175,11 @@ header a {
   }
 
   .navbar a {
-    font-size: 2vw;
+    font-size: 2.5vw;
+  }
+
+  .dropdown-content a {
+  font-size: 2vw;
   }
 
   .cta {
@@ -163,7 +196,7 @@ header a {
 
   .parallax {
     height: auto;
-    background-position: top left;
+    background-position: center top;
     background-size: 50vw;
     border-radius: 5vw;
     padding-top: 7vw;
