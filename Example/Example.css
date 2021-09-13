@@ -89,9 +89,10 @@ header a {
 }
 
 .dropdown-content {
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 25vw;
+  width: 17vw;
   z-index: 1;
   flex-direction: column;
 }
