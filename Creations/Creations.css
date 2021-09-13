@@ -220,8 +220,8 @@ header a {
     margin-top: 0vw;
     border-radius: 5vw;
     border-radius: 0vw 0vw 5vw 5vw;
-    background-position: 0% 10%;
-    background-size: 55vw;
+    background-position: 0% 50%;
+    background-size: 80vw;
   }
 
   .parallax p {
