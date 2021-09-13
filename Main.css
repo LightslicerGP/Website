@@ -299,11 +299,12 @@ header a {
   }
 
   .parallax p {
+    align-self: center;
     height: auto;
     font-size: 6vw;
-    margin: 5vw;
+    margin: 6vw;
     border-radius: 3vw;
-    padding: 1vw;
+    padding: auto;
   }
 
   .title {
