@@ -148,12 +148,9 @@ header a {
 
 .item {
   display: flex;
-  width: 35vw;
+  width: 40vw;
   height: auto;
   flex-wrap: wrap;
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-  border-radius: 5vw;
-  padding: 4vw;
   margin-top: 5vw;
   font-size: 3vw;
 }
@@ -162,29 +159,38 @@ header a {
   width: 10vw;
   height: 10vw;
   padding: 0vw;
+  margin-left: 2vw;
+}
+
+.item a {
+  width: 40vw;
 }
 
 .type {
-  margin: 1vw;
-  margin-left: auto;
-  margin-right: 0;
-  padding: auto;
-  padding-bottom: 0vw;
-  margin: 0vw;
-  height: 10vw;
-  width: 65%;
-  height: 10vw;
-  border-radius: 2vw;
-  box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
+  margin: auto;
+  padding-right: 1vw;
+  font-size: 90%;
+}
+
+.section {
+  width: 36vw;
+  margin-top: 2vw;
+  padding: 2vw;
+  height: 15vw;
+  border-radius: 3vw;
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
 }
 
 .name {
-  width: 100%;
-  font-size: 110%;
-  margin-bottom: 0vw;
+  width: auto;
+  font-size: 100%;
+  font-weight: 300;
+  margin: 0vw;
 }
 
 .description {
+  font-weight: 100;
+  width: auto;
   margin-bottom: 0vw;
 }
 
@@ -216,12 +222,12 @@ header a {
 
   .parallax {
     width: 45vw;
-    height: 30vw;
+    height: 25vw;
     margin-top: 0vw;
     border-radius: 5vw;
     border-radius: 0vw 0vw 5vw 5vw;
-    background-position: 0% 50%;
-    background-size: 80vw;
+    background-position: -6vw 6vw;
+    background-size: 70vw;
   }
 
   .parallax p {
@@ -234,5 +240,13 @@ header a {
   .item {
     margin-top: 3vw;
     font-size: 2vw;
+  }
+
+  .section {
+    height: 10vw;
+  }
+
+  .type {
+    font-size: 105%;
   }
 }
