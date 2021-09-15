@@ -1,7 +1,9 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 600;  
+  list-style: none;
+  text-decoration: none;
 }
 
 @keyframes navfade {
@@ -22,7 +24,8 @@ body {
   padding-bottom: 3vw;
 }
 
-.navbutton {
+
+#navbutton {
   -webkit-appearance: none;
   background-color: #181818;
   box-shadow: 0vw 0vw 2vw #000000;
@@ -37,15 +40,19 @@ body {
   z-index: 3;
 }
 
-.navbutton:hover {
+div.open {
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
+}
+
+#navbutton:hover {
   background-color: #1c1c1c;
 }
 
-.navbutton:active {
+#navbutton:active {
   background-color: #141414;
 }
 
-.navbutton img {
+#navbutton img {
   width: 7vw;
   height: 7vw;
 }
@@ -57,10 +64,6 @@ header {
 header.open {
   display: flex;
   flex-direction: column;
-}
-
-.open {
-  padding-top: 14vw;
   z-index: 2;
   background-color: #00e0ff;
   position: absolute;
@@ -69,9 +72,25 @@ header.open {
   border-radius: 0vw 5vw 5vw 0vw;
 }
 
+header a {
+  height: 10vw;
+  width: 10vw;
+  padding: 2vw;
+  padding-left: 38vw;
+}
+
 header img {
   width: 10vw;
   height: 10vw;
+  border-radius: 3vw;
+}
+
+.navbar li {
+  width: 50vw;
+}
+
+.navbar a {
+  padding: 0vw;
 }
 
 .parallax {
@@ -108,7 +127,7 @@ header img {
     padding-bottom: 2vw;
   }
 
-  .navbutton {
+  #navbutton {
     display: none;
   }
 
@@ -127,22 +146,26 @@ header img {
     z-index: 1;
   }
 
+  header a {
+    width: auto;
+  }
+
   header img {
     width: auto;
     cursor: pointer;
     padding: 0vw;
-    height: 4vw;
+    height: 5vw;
     border-radius: 1vw;
   }
 
   header a {
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
+    padding: 0vw;
     animation: 0.5s ease-out 0s 1 navfade;
   }
 
   .navbar {
-    list-style: none;
     padding: 0vw;
     margin: 0vw;
   }
@@ -152,6 +175,7 @@ header img {
     padding: 0vw 0.5vw;
     animation: 0.5s ease-out 0s 1 navfade;
     align-content: center;
+    width: auto;
   }
 
   .navbar a {
@@ -198,17 +222,18 @@ header img {
   .contact {
     text-decoration: none;
     display: flex;
-    font-size: 2vw;
+    font-size: 2.5vw;
     background-color: #181818;
     border: none;
     border-radius: 2vw;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    padding: 0.5vw 1.5vw;
-    width: auto;
-    height: auto;
-    margin-top: 0.5vw;
+    padding: auto;
+    width: 13vw;
+    height: 5vw;
     font-weight: 300;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact:hover {

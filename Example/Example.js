@@ -1,8 +1,9 @@
-const hamburger = document.querySelector(".navbutton");
+const button = document.getElementById("navbutton");
 const navlinks = document.querySelector("header");
 
-hamburger.addEventListener("click", () => 
+button.addEventListener("click", () => 
   {
     navlinks.classList.toggle("open");
+    button.classList.toggle("open");
   }
 );
