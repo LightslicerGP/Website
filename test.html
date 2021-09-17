@@ -1,0 +1,23 @@
+Removing an element is much easier, as it only requires the element's ID.
+1. function removeElement(elementId) {
+2. // Removes an element from the document.
+3. var element = document. getElementById(elementId);
+4. element. parentNode. removeChild(element);
+5. }
+
+Example:
+<h1>The remove() Method</h1>
+
+<p>The remove() method removes the element from the DOM.</p>
+
+<p id="demo">Click the button, and this paragraph will be removed from the DOM.</p>
+
+<button onclick="myFunction()">Remove paragraph</button>
+
+<script>
+function myFunction() {
+  var myobj = document.getElementById("demo");
+  myobj.remove();
+  myobj.add
+}
+</script>

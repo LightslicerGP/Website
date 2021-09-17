@@ -3,7 +3,9 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="../Example/Example.css" as="style">
+  <link rel="preload" href="../Example/Example.js" as="script">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../Example/Example.css">
   <link rel="shortcut icon" type="image/png" href="../Pictures/LSPGv3.png">
 </head>
@@ -18,17 +20,18 @@
     </a>
     <nav>
       <ul class="navbar">
-        <li>
+        <li id="creations">
           <div class="dropdown">
             <a href="../Creations/Creations.html">Creations</a>
-            <div class="dropdown-content">
+            <img src="../Pictures/arrow.png" onclick="clicked()">
+            <div class="dropdown-content" id="dropdown-content">
               <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/texture-packs">SimplyCubed</a>
               <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/skin-packs">SimplySkin</a>
               <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/maps">SimplySurvival</a>
             </div>
           </div>
         </li>
-        <li>
+        <li id="github">
           <a href="https://github.com/LightslicerGP/Website">Github</a>
         </li>
         <li>

@@ -1,9 +1,13 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-weight: 600;  
+  font-weight: 600;
   list-style: none;
   text-decoration: none;
+  @font-face {
+    font-family: Montserrat;
+    src: src(../);
+  }
 }
 
 @keyframes navfade {
@@ -40,7 +44,7 @@ body {
   z-index: 3;
 }
 
-div.open {
+#navbutton.open {
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
@@ -85,12 +89,59 @@ header img {
   border-radius: 3vw;
 }
 
+nav {
+  height: auto;
+}
+
+.navbar {
+  padding-left: 5vw;
+  margin: 0vw;
+}
+
 .navbar li {
-  width: 50vw;
+  width: 25vw;
 }
 
 .navbar a {
   padding: 0vw;
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.dropdown {
+  width: 25vw;
+  display: flex;
+  margin: 0vw;
+  flex-wrap: wrap;
+}
+
+.dropdown a {
+  width: auto;
+  height: auto;
+}
+
+.dropdown img {
+  height: 4vw;
+  width: 4vw;
+}
+
+.dropdown-content {
+  display: none;
+  width: 39vw;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 2vw;
+  border-radius: 3vw;
+}
+
+.dropdown-content a {
+  color: #000000;
+  font-weight: 100;
+}
+
+.dropdown img:active .dropdown-content {
+  display: flex;
+  pointer-events: painted;
 }
 
 .parallax {
@@ -181,8 +232,30 @@ header img {
   .navbar a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    font-size: 2.5vw;
-    font-weight: 300;
+    font-size: 2vw;
+    font-weight: 400;
+  }
+
+  #creations {
+    padding: 0vw;
+  }
+
+  #github {
+    padding-left: 0vw;
+  }
+
+  .dropdown {
+    width: auto;
+  }
+
+  .dropdown img {
+    height: 3vw;
+    width: 3vw;
+  }
+
+  .dropdown-content {
+    margin-top: 3vw;
+    width: auto;
   }
 
   .dropdown-content a {
@@ -198,20 +271,25 @@ header img {
     font-weight: 100;
   }
 
+  .dropdown img {
+    height: 2.5vw;
+    width: auto;
+  }
+
   .navbar a:hover {
     color: #181818;
   }
 
   .dropdown-content {
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 17vw;
     z-index: 1;
     flex-direction: column;
+    padding: 0.5vw;
+    border-radius: 2vw;
   }
 
-  .dropdown:hover .dropdown-content {
+  .dropdow a:hover .dropdown-content {
     display: flex;
   }
 
@@ -231,7 +309,7 @@ header img {
     padding: auto;
     width: 13vw;
     height: 5vw;
-    font-weight: 300;
+    font-weight: 400;
     align-items: center;
     justify-content: center;
   }
