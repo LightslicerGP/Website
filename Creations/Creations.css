@@ -2,6 +2,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-weight: 600;
+
 }
 
 @keyframes navfade {
@@ -110,18 +111,19 @@ header a {
 }
 
 .parallax {
-  background-image: url("../Pictures/SimplyCubed_EndFortress.png");
-  height: 40vw;
+  background-image: url(../Pictures/SimplyCubed_EndFortress.png);
+  height: 46vw;
   width: 100vw;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 125vw;
+  background-size: 150vw;
   border-radius: 0vw 0vw 10vw 10vw;
-  border: 0px solid #181818;
   padding-top: 5vw;
   z-index: 0;
   display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .parallax p {
