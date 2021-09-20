@@ -15,9 +15,12 @@ button.addEventListener("click", () => {
 
 function clicked() {
   var dropdown = document.getElementById("dropdown-content");
+  var dropdownimg = document.getElementById("dropdownimg");
   if (dropdown.style.display === "none") {
     dropdown.style.display = "flex";
+    dropdownimg.style.transform = "rotate(90deg)";
   } else {
     dropdown.style.display = "none";
+    dropdownimg.style.transform = null;
   }
 }

@@ -24,6 +24,19 @@
   font-weight: bold;
 }
 
+@keyframes loaded {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes dropdown {
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
 @keyframes navfade {
   0% {
     transform: translateY(-100%);
@@ -36,23 +49,10 @@
   }
 }
 
-@keyframes loaded {
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
 body {
   background: #181818;
   margin: 0;
   padding-bottom: 3vw;
-}
-
-header img {
-  width: 10vw;
-  height: 10vw;
-  border-radius: 3vw;
 }
 
 .loader {
@@ -78,6 +78,16 @@ header img {
   animation-fill-mode: forwards;
 }
 
+header {
+  transition: 1s;
+}
+
+header img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 3vw;
+}
+
 #navbutton {
   -webkit-appearance: none;
   background-color: #181818;
@@ -91,10 +101,11 @@ header img {
   justify-content: center;
   align-items: center;
   z-index: 3;
+  transition: 1s;
 }
 
 #navbutton.open {
-  border: 0.1vw solid rgba(255, 255, 255, 0.25);
+  transform: rotate(135deg);
 }
 
 #navbutton:hover {
@@ -105,9 +116,25 @@ header img {
   background-color: #141414;
 }
 
-.dropdown img {
-  height: 4vw;
-  width: 4vw;
+#logo {
+  width: 10vw;
+  height: 10vw;
+  cursor: pointer;
+  padding: 0vw;
+  border-radius: 1vw;
+  padding-top: 2vw;
+  padding-left: 38vw;
+  padding-bottom: 2vw;
+}
+
+#dropdownimg {
+  height: 5vw;
+  width: 5vw;
+  transition: 0.5s;
+}
+
+#dropdownimg:active {
+  transform: rotate(90deg);
 }
 
 #navbutton img {
@@ -130,11 +157,9 @@ header.open {
   border-radius: 0vw 5vw 5vw 0vw;
 }
 
-header a {
-  height: 10vw;
+#logo a {
   width: 10vw;
-  padding: 2vw;
-  padding-left: 38vw;
+  height: 10vw;
 }
 
 nav {
@@ -179,6 +204,12 @@ nav {
 .dropdown-content a {
   color: #000000;
   font-weight: thin;
+}
+
+.dropdown img {
+  height: 5vw;
+  width: auto;
+  transition: 1s;
 }
 
 .dropdown img:active .dropdown-content {
@@ -240,8 +271,13 @@ nav {
     padding-bottom: 2vw;
   }
 
+  #dropdownimg {
+    height: 2vw;
+    width: auto;
+  }
+
   #navbutton {
-    visibility: hidden;
+    display: none;
   }
 
   header {
