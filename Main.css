@@ -41,7 +41,7 @@ body {
 #tempbox {
   border-radius: 2vw;
   width: 50vw;
-  height: 20vw;
+  height: 30vw;
   margin: auto;
   padding: 2vw;
   background-color: #000000;
@@ -58,6 +58,11 @@ body {
   font-weight: 100;
   margin-bottom: 3vw;
   margin-top: 1vw;
+}
+
+#tempbox li {
+  font-size: 2vw;
+  font-weight: 100;
 }
 
 #tempbox button {
