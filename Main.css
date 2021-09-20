@@ -41,23 +41,30 @@ body {
 #tempbox {
   border-radius: 2vw;
   width: 50vw;
-  height: 30vw;
+  height: auto;
   margin: auto;
   padding: 2vw;
   background-color: #000000;
+  padding-top: 1vw;
 }
 
 #tempbox h1 {
   font-size: 4vw;
   margin-bottom: 1vw;
-  margin-top: 1vw;
+  margin-top: 0vw;
 }
 
 #tempbox p {
   font-size: 2vw;
   font-weight: 100;
-  margin-bottom: 3vw;
-  margin-top: 1vw;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+}
+
+#tempbox ul {
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+  padding-left: 5vw;
 }
 
 #tempbox li {
@@ -72,8 +79,11 @@ body {
   width: 20vw;
   height: auto;
   font-size: 2vw;
+  font-weight: 400;
+  padding: 1vw;
   cursor: pointer;
   border-radius: 1vw;
+  margin: 0vw;
 }
 
 #tempbox button:hover {
@@ -313,6 +323,10 @@ header a {
 @media (orientation: landscape) {
   body {
     padding-bottom: 2vw;
+  }
+
+  #tempbox ul {
+    margin-bottom: 4vh;
   }
 
   header .logo {
