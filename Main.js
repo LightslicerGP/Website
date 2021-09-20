@@ -39,3 +39,11 @@ let getVideos = () => {
     })
 }
 getVideos();
+
+
+var modal = document.getElementById("temp");
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}

@@ -22,6 +22,59 @@ body {
   padding-bottom: 7vw;
 }
 
+#temp {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.575);
+  z-index: 3;
+}
+
+#tempbox {
+  border-radius: 2vw;
+  width: 50vw;
+  height: 20vw;
+  margin: auto;
+  padding: 2vw;
+  background-color: #000000;
+}
+
+#tempbox h1 {
+  font-size: 4vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+#tempbox p {
+  font-size: 2vw;
+  font-weight: 100;
+  margin-bottom: 3vw;
+  margin-top: 1vw;
+}
+
+#tempbox button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  width: 20vw;
+  height: auto;
+  font-size: 2vw;
+  cursor: pointer;
+  border-radius: 1vw;
+}
+
+#tempbox button:hover {
+  background-color: #b3b3b3;
+}
+
 header {
   display: flex;
   justify-content: space-between;
