@@ -80,12 +80,24 @@ body {
 
 header {
   transition: 1s;
+  display: none;
 }
 
 header img {
   width: 10vw;
   height: 10vw;
   border-radius: 3vw;
+}
+
+header.open {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  background-color: #00e0ff;
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  border-radius: 0vw 5vw 5vw 0vw;
 }
 
 #navbutton {
@@ -140,21 +152,6 @@ header img {
 #navbutton img {
   width: 7vw;
   height: 7vw;
-}
-
-header {
-  display: none;
-}
-
-header.open {
-  display: flex;
-  flex-direction: column;
-  z-index: 2;
-  background-color: #00e0ff;
-  position: absolute;
-  width: 50vw;
-  height: 100vh;
-  border-radius: 0vw 5vw 5vw 0vw;
 }
 
 #logo a {
