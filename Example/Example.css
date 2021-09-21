@@ -27,7 +27,6 @@
 @keyframes loaded {
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 
@@ -74,13 +73,14 @@ body {
 }
 
 .loader.hidden {
-  animation: loaded 1s;
+  animation: loaded 1.5s;
   animation-fill-mode: forwards;
 }
 
 header {
   transition: 1s;
   display: none;
+  position: absolute;
 }
 
 header img {
@@ -118,10 +118,6 @@ header.open {
 
 #navbutton.open {
   transform: rotate(135deg);
-}
-
-#navbutton:hover {
-  background-color: #1c1c1c;
 }
 
 #navbutton:active {
@@ -192,10 +188,12 @@ nav {
 .dropdown-content {
   display: none;
   width: 39vw;
+  height: auto;
   flex-wrap: wrap;
   background-color: #ffffff;
   padding: 2vw;
   border-radius: 3vw;
+  transition: height 1s;
 }
 
 .dropdown-content a {
@@ -207,11 +205,6 @@ nav {
   height: 5vw;
   width: auto;
   transition: 1s;
-}
-
-.dropdown img:active .dropdown-content {
-  display: flex;
-  pointer-events: painted;
 }
 
 .contact {
@@ -263,6 +256,11 @@ nav {
 
 
 
+
+
+
+
+
 @media (orientation: landscape) {
   body {
     padding-bottom: 2vw;
@@ -275,6 +273,12 @@ nav {
 
   #navbutton {
     display: none;
+  }
+  
+  #logo {
+    padding: 0vw;
+    width: 3vw;
+    height: 3vw;
   }
 
   header {
@@ -332,7 +336,6 @@ nav {
   .dropdown-content a {
     color: #000000;
     width: auto;
-    height: auto;
     font-size: 1.5vw;
     line-height: 1vw;
     display: flex;
