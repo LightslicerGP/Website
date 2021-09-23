@@ -32,7 +32,6 @@ function clicked() {
 //set a cookie name with a value
 document.cookie = "name=LightslicerGP";
 document.cookie = "id=24";
-setcookie("name", time() + (100 * 30));
 
 //set the word/variable(constant) "cookies" to be the list of cookies on the page
 const cookies =
@@ -48,7 +47,8 @@ const cookies =
       ...accumulator,
       [key.trim()]: decodeURIComponent(value)
     }), {}
-  );
+  )
+;
 
 //then retreive the cookie with the name of a cookie
 console.log(

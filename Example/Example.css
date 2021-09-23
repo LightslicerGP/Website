@@ -6,6 +6,28 @@
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #181818;
+    --secondary-color: #ffffff;
+    --up-one: #1c1c1c;
+    --down-one: #141414;
+    --shadow: #080808;
+    --light: #282828;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-color: #e8e8e8;
+    --secondary-color: #000000;
+    --up-one: #e4e4e4;
+    --down-one: #ececec;
+    --shadow: #d8d8d8;
+    --light: #f8f8f8;
+  }
+}
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../Font/Montserrat-Thin.ttf');
@@ -49,7 +71,7 @@
 }
 
 body {
-  background: #181818;
+  background: var(--main-color);
   margin: 0;
   padding-bottom: 3vw;
 }
@@ -102,8 +124,8 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background-color: #181818;
-  box-shadow: 0vw 0vw 2vw #000000;
+  background-color: var(--main-color);
+  box-shadow: 0vw 0vw 2vw var(--main-color);
   border-radius: 100vw;
   position: fixed;
   margin: 2vw;
@@ -121,7 +143,7 @@ header.open {
 }
 
 #navbutton:active {
-  background-color: #141414;
+  background-color: var(--down-one);
 }
 
 #logo {
@@ -164,6 +186,10 @@ nav {
   margin: 0vw;
 }
 
+.navbar a:hover {
+  color: #181818;
+}
+
 .navbar li {
   width: 25vw;
 }
@@ -190,14 +216,14 @@ nav {
   width: 39vw;
   height: auto;
   flex-wrap: wrap;
-  background-color: #ffffff;
+  background-color: var(--secondary-color);
   padding: 2vw;
   border-radius: 3vw;
   transition: height 1s;
 }
 
 .dropdown-content a {
-  color: #000000;
+  color: var(--main-color);
   font-weight: thin;
 }
 
@@ -218,17 +244,25 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #181818;
+  background-color: var(--main-color);
 }
 
 .contact:active {
-  background-color: #ffffff;
-  color: #181818;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .parallax {
   background-image: url("../Pictures/FH3_End.png");
   height: 40vw;
+  width: 100vw;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -239,18 +273,38 @@ nav {
 }
 
 .parallax p {
+  padding: 1vw;
   display: flex;
   justify-content: center;
   font-size: 10vw;
   font-weight: bold;
-  color: #000000;
+  color: var(--main-color);
   margin: auto;
   width: 50vw;
-  border-radius: 4vw;
+  border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
+
+#temporary {
+  height: auto;
+  width: auto;
+  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
+  order: 2;
+  margin-top: 5vw;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#temporary p {
+  color: var(--secondary-color);
+  width: 50vw;
+  margin: 5vw;
+}
+
 
 
 
@@ -334,7 +388,7 @@ nav {
   }
 
   .dropdown-content a {
-    color: #000000;
+    color: var(--main-color);
     width: auto;
     font-size: 1.5vw;
     line-height: 1vw;
@@ -347,10 +401,6 @@ nav {
   .dropdown img {
     height: 2vw;
     width: auto;
-  }
-
-  .navbar a:hover {
-    color: #181818;
   }
 
   .dropdown-content {
@@ -388,15 +438,12 @@ nav {
   }
 
   .contact:hover {
-    background-color: #ffffff;
-    color: #181818;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
   }
 
   .bottom {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     padding-top: 4vw;
   }
 
