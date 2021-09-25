@@ -249,6 +249,7 @@ header a {
 
   .surround {
     height: 5vw;
+    width: 27vw;
     margin-right: auto;
     margin-left: 3vw;
   }
@@ -268,8 +269,10 @@ header a {
     padding: 1vw;
   }
 
-  .details a {
-    height: 25vw;
+  .channel a {
+    height: 27vw;
+    width: 27vw;
+    border-radius: 4vw;
   }
 
   .details h1 {
