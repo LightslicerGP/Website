@@ -17,14 +17,14 @@
   }
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #e8e8e8;
+    --main-color: #dcdcdc;
     --secondary-color: #000000;
     --up-one: #e4e4e4;
     --down-one: #ececec;
-    --shadow: #d8d8d8;
-    --light: #f8f8f8;
+    --shadow: #bebebe;
+    --light: #ffffff;
   }
 }
 

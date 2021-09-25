@@ -128,42 +128,53 @@ header a {
 }
 
 .channel {
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-  border-radius: 10vw;
   display: flex;
-  background: #1c1c1c;
   width: 85vw;
   margin: auto;
   margin-top: 5vw;
-  padding: 2vw;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .channel img {
-  width: 85vw;
+  width: 30vw;
   height: auto;
-  padding: 0vw;
   margin: auto;
-  border-radius: 10vw;
+  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  border-radius: 8vw;
+  background: #1c1c1c;
+  padding: 2vw;
 }
 
 .channel a {
-  height: 85vw;
-  padding: 0vw;
+  height: auto;
+  width: auto;
   margin: auto;
-  border-radius: 10vw;
+  border-radius: 3vw;
 }
 
-.channel h1 {
+.details {
+  width: auto;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details h1 {
   font-size: 5vw;
-  text-indent: 4vw;
+  font-weight: 300;
+  margin: 0vw;
+  margin-bottom: 2vw;
+  width: auto;
+  height: auto;
 }
 
-.channel p {
-  margin-top: 0vw;
+.details p {
+  margin: 0vw;
   font-size: 3vw;
-  text-indent: 4vw;
-  font-weight: 300;
+  font-weight: 100;
+  height: auto;
+  width: auto;
 }
 
 .info {
@@ -244,22 +255,24 @@ header a {
 
   .channel {
     border-radius: 5vw;
-    background: #1c1c1c;
-    width: 25vw;
+    width: 30vw;
+    height: auto;
     margin: 0vw;
     margin-top: 9vw;
+    flex-direction: column;
   }
 
   .channel img {
     width: 25vw;
     border-radius: 4vw;
+    padding: 1vw;
   }
 
-  .channel a {
+  .details a {
     height: 25vw;
   }
 
-  .channel h1 {
+  .details h1 {
     font-size: 150%;
     text-indent: 0vw;
     padding: 1vw;
@@ -268,7 +281,7 @@ header a {
     padding-top: 2vw;
   }
 
-  .channel p {
+  .details p {
     font-size: 100%;
     text-indent: 0vw;
     padding: 1vw;
