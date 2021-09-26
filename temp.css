@@ -80,6 +80,75 @@ body {
   padding-bottom: 3vw;
 }
 
+
+#temp {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.575);
+  z-index: 3;
+}
+
+#tempbox {
+  border-radius: 2vw;
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  padding: 2vw;
+  background-color: #000000;
+  padding-top: 1vw;
+}
+
+#tempbox h1 {
+  font-size: 4vw;
+  margin-bottom: 1vw;
+  margin-top: 0vw;
+}
+
+#tempbox p {
+  font-size: 2vw;
+  font-weight: 100;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+}
+
+#tempbox ul {
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+  padding-left: 5vw;
+}
+
+#tempbox li {
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+#tempbox button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  width: 20vw;
+  height: auto;
+  font-size: 2vw;
+  font-weight: 400;
+  padding: 1vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  margin: 0vw;
+}
+
+#tempbox button:hover {
+  background-color: #b3b3b3;
+}
+
 #loader {
   position: fixed;
   z-index: 100;

@@ -1,10 +1,12 @@
 window.addEventListener("load", function() {
-  const loader = this.document.querySelector(".loader");
+  const loader = document.getElementById("loader");
   loader.className += " hidden";
   setTimeout(function() {
     loader.remove();
   }, 1500);
 })
+
+
 
 const button = document.getElementById("navbutton");
 const navlinks = document.querySelector("header");

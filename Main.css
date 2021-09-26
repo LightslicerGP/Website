@@ -105,7 +105,7 @@ header {
   z-index: 1;
 }
 
-header .logo {
+header #logo {
   width: auto;
   height: 4vw;
   cursor: pointer;
@@ -209,7 +209,7 @@ header a {
   font-weight: 300;
 }
 
-.title .logo {
+.title #logo {
   width: 30vw;
   height: 30vw;
   border-radius: 10vw;
@@ -256,7 +256,7 @@ header a {
   font-weight: 100;
 }
 
-.introparagraph {
+#introparagraph {
   margin: auto;
   padding: 5vw;
   padding-left: 0vw;
@@ -265,11 +265,11 @@ header a {
   font-weight: 100;
 }
 
-.carousel {
+#carousel {
   margin-top: 5vw;
 }
 
-.container {
+#container {
   width: 90vw;
   margin: auto;
   overflow-y: hidden;
@@ -296,14 +296,14 @@ header a {
   object-fit: cover;
 }
 
-.links {
+#links {
   margin-top: 3vw;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.links a {
+#links a {
   border-radius: 10vw;
   display: inline-flex;
   padding: 1vw 3vw;
@@ -312,7 +312,7 @@ header a {
   margin: 0 2vw;
 }
 
-.links a:hover {
+#links a:hover {
   background: #181818;
 }
 
@@ -329,7 +329,7 @@ header a {
     margin-bottom: 4vh;
   }
 
-  header .logo {
+  header #logo {
     height: 4vw;
     border-radius: 1vw;
   }
@@ -339,7 +339,7 @@ header a {
     padding: 0vw 1vw;
   }
 
-  .container a {
+  #container a {
     height: 23vw;
   }
 
@@ -397,7 +397,7 @@ header a {
     font-size: 2.5vw;
   }
 
-  .title .logo {
+  .title #logo {
     width: 13vw;
     height: 13vw;
     border-radius: 4vw;
@@ -428,18 +428,18 @@ header a {
     padding-bottom: 1vw;
   }
 
-  .introparagraph {
+  #introparagraph {
     padding: 3vw;
     padding-left: 0vw;
     text-indent: 2vw;
     font-size: 1vw;
   }
 
-  .carousel {
+  #carousel {
     order: 3;
   }
 
-  .container {
+  #container {
     width: 46vw;
     border-radius: 4vw;
     order: 3;

@@ -1,30 +1,10 @@
 note for me:
-backgound=#181818 24
-shadow=#080808 24-16=8
-light=#282828 24+16=40
-up one=#1c1c1c 24+4=28
-down one=#141414 24-4=20
+backgound= 80
+up one= 90
+down one= 70
+shadow= 60
+light= 100
 to hightlight something do: border: 1px solid blue;
 font: <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
-
-dark mode
-:root {
-  --main-color: #181818;
-  --secondary-color: #ffffff;
-  --up-one: #1c1c1c;
-  --down-one: #141414;
-  --shadow: #080808;
-  --light: #282828;
-}
-
-light mode
-:root {
-  --main-color: #e8e8e8;
-  --secondary-color: #000000;
-  --up-one: #e4e4e4;
-  --down-one: #ececec;
-  --shadow: #d8d8d8;
-  --light: #f8f8f8;
-}
