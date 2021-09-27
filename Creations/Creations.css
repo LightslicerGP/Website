@@ -148,6 +148,10 @@ header a {
   font-size: 2vw;
 }
 
+.parallax a:hover {
+  text-decoration: underline;
+}
+
 .item {
   display: flex;
   width: 40vw;

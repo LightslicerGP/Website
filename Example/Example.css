@@ -129,7 +129,7 @@ header.open {
 #navbutton {
   -webkit-appearance: none;
   background-color: var(--main-color);
-  box-shadow: 0vw 0vw 3vw var(--main-color);
+  box-shadow: 0vw 0vw 3vw var(--text-light);
   border-radius: 100vw;
   position: fixed;
   margin: 2vw;
