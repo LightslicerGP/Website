@@ -35,18 +35,17 @@ function clicked() {
 /////cookies
 
 //set a cookie name with a value
-document.cookie = "name=LightslicerGP";
+
+var LightslicerGP = Math.ceil(Math.random() * (1000 - 0) + 0);
+
+document.cookie = "name="+LightslicerGP;
 document.cookie = "id=24";
 
-//set the word/variable(constant) "cookies" to be the list of cookies on the page
+//set the word/variable(const) "cookies" to be the list of cookies on the page
 const cookies =
-  document
-  .cookie
-  .split(';')
-  .map(
+  document.cookie.split(';').map(
     cookie => cookie.split('=')
-  )
-  .reduce(
+  ).reduce(
     (accumulator, [key, value]) =>
     ({
       ...accumulator,
@@ -71,20 +70,3 @@ console.log(cookies.test);
 //set the date to before computers existed or somth
 document.cookie = "test=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
 // to prove its gone, go to inspect element> the "Application" tab> open the cookie dropdown> click cookies till you see the ones set
-
-
-
-
-
-/////json files
-const fs = require('fs');
-  
-// Data which will write in a file.
-let data = "Learning how to write in a file."
-  
-// Write data in 'Output.txt' .
-fs.writeFile('Output.txt', data, (err) => {
-      
-    // In case of a error throw err.
-    if (err) throw err;
-})

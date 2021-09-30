@@ -14,8 +14,7 @@
     --down-one: #141414;
     --shadow: #080808;
     --light: #282828;
-    --text-light: #ffffff;
-    --text-dark: #000000;
+    --text: #ffffff;
   }
 }
 
@@ -27,8 +26,7 @@
     --down-one: #e3e3e3;
     --shadow: #d7d7d7;
     --light: #f7f7f7;
-    --text-light: #ffffff;
-    --text-dark: #000000;
+    --text: #000000;
   }
 }
 
@@ -80,6 +78,9 @@ body {
   padding-bottom: 3vw;
 }
 
+p {
+  color: var(--text);
+}
 
 #temp {
   display: flex;
@@ -118,6 +119,7 @@ body {
   font-weight: 100;
   margin-bottom: 0vw;
   margin-top: 0vw;
+  color: var(--text);
 }
 
 #tempbox ul {
@@ -197,7 +199,7 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background-color: var(--main-color);
+  background-color: #181818;
   box-shadow: 0vw 0vw 3vw var(--secondary-color);
   border-radius: 100vw;
   position: fixed;
@@ -296,7 +298,7 @@ nav {
 }
 
 #dropdown-content a {
-  color: var(--main-color);
+  color: #181818;
   font-weight: thin;
 }
 
@@ -317,12 +319,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-color);
+  background-color: #181818;
 }
 
-.contact:active {
-  background-color: var(--secondary-color);
-  color: var(--main-color);
+#contact:hover {
+  background-color: #ffffff;
+  color: #181818;
 }
 
 #bottom {
@@ -351,7 +353,7 @@ nav {
   justify-content: center;
   font-size: 10vw;
   font-weight: bold;
-  color: var(--text-dark);
+  color: #000000;
   margin: auto;
   width: 50vw;
   border-radius: 5vw;
@@ -364,8 +366,8 @@ nav {
   margin: auto;
   margin-top: 5vw;
   border-radius: 10vw;
-  box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
-  background: #141414;
+  box-shadow: inset 1vw 1vw 2vw var(--shadow), inset -1vw -1vw 2vw var(--light);
+  background: var(--main-color);
   display: flex;
   align-items: center;
   width: 94vw;
@@ -384,8 +386,8 @@ nav {
   width: 30vw;
   height: 30vw;
   border-radius: 10vw;
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-  background: #181818;
+  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
+  background: var(--main-color);
   padding: 2vw;
   margin: 4vw 4vw;
   margin-left: auto;
@@ -418,6 +420,7 @@ nav {
   padding-top: 0vw;
   padding-bottom: 0vw;
   font-weight: 300;
+  color: var(--text);
 }
 
 .subtitles {
@@ -427,6 +430,7 @@ nav {
   padding-top: 0vw;
   padding-bottom: 2vw;
   font-weight: 100;
+  color: var(--text);
 }
 
 #introparagraph {
@@ -449,8 +453,8 @@ nav {
   overflow-x: hidden;
   display: flex;
   border-radius: 6vw;
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
-  background: #1c1c1c;
+  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
+  background: var(--up-one);
 }
 
 .item {
@@ -480,13 +484,13 @@ nav {
   border-radius: 10vw;
   display: inline-flex;
   padding: 1vw 3vw;
-  background: #282828;
-  box-shadow: 0vw 0vw 2vw #080808;
+  background: var(--up-one);
+  box-shadow: 0vw 0vw 2vw var(--shadow);
   margin: 0 2vw;
 }
 
 #links a:hover {
-  background: #181818;
+  background: var(--main-color);
 }
 
 
