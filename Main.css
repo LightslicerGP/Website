@@ -32,19 +32,19 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('/Font/Montserrat-Thin.ttf');
+  src: url('Font/Montserrat-Thin.ttf');
   font-weight: thin;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('/Font/Montserrat-Regular.ttf');
+  src: url('Font/Montserrat-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('/Font/Montserrat-SemiBold.ttf');
+  src: url('Font/Montserrat-SemiBold.ttf');
   font-weight: bold;
 }
 
