@@ -18,7 +18,7 @@
   }
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --main-color: #e7e7e7;
     --secondary-color: #000000;
@@ -116,10 +116,10 @@ p {
 
 #tempbox p {
   font-size: 2vw;
-  font-weight: 100;
+  font-weight: thin;
   margin-bottom: 0vw;
   margin-top: 0vw;
-  color: var(--text);
+  color: #ffffff;
 }
 
 #tempbox ul {
@@ -130,7 +130,7 @@ p {
 
 #tempbox li {
   font-size: 2vw;
-  font-weight: 100;
+  font-weight: thin;
 }
 
 #tempbox button {
@@ -140,7 +140,7 @@ p {
   width: 20vw;
   height: auto;
   font-size: 2vw;
-  font-weight: 400;
+  font-weight: normal;
   padding: 1vw;
   cursor: pointer;
   border-radius: 1vw;
@@ -175,7 +175,6 @@ p {
 }
 
 header {
-  transition: 1s;
   display: none;
   position: absolute;
 }
@@ -291,21 +290,26 @@ nav {
   width: 39vw;
   height: auto;
   flex-wrap: wrap;
-  background-color: var(--secondary-color);
+  background-color: #ffffff;
   padding: 2vw;
   border-radius: 3vw;
   transition: height 1s;
 }
 
 #dropdown-content a {
-  color: #181818;
+  color: #000000;
   font-weight: thin;
+}
+
+#dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 1vw;
 }
 
 #dropdown img {
   height: 5vw;
   width: auto;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 #contact {
@@ -358,11 +362,11 @@ nav {
   width: 50vw;
   border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
-.title {
+#title {
   margin: auto;
   margin-top: 5vw;
   border-radius: 10vw;
@@ -374,15 +378,15 @@ nav {
   height: 42vw;
 }
 
-.title p {
+#title p {
   padding: 5vw;
   margin-left: 2vw;
   text-align: right;
   font-size: 5vw;
-  font-weight: 300;
+  font-weight: normal;
 }
 
-.title #logo {
+#title #logo {
   width: 30vw;
   height: 30vw;
   border-radius: 10vw;
@@ -394,7 +398,7 @@ nav {
   cursor: pointer;
 }
 
-.intro {
+#intro {
   border-radius: 10vw;
   display: grid;
   grid: auto / auto auto;
@@ -404,7 +408,7 @@ nav {
   width: 92vw;
 }
 
-.subsandviews {
+#subsandviews {
   display: grid;
   padding: 7vw;
   padding-top: 0vw;
@@ -412,6 +416,7 @@ nav {
   margin: auto;
   flex-direction: column;
   align-content: center;
+  font-weight: normal;
 }
 
 .counters {
@@ -419,7 +424,7 @@ nav {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 0vw;
-  font-weight: 300;
+  font-weight: normal;
   color: var(--text);
 }
 
@@ -429,7 +434,7 @@ nav {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 2vw;
-  font-weight: 100;
+  font-weight: thin;
   color: var(--text);
 }
 
@@ -439,7 +444,7 @@ nav {
   padding-left: 0vw;
   text-indent: 5vw;
   font-size: 2vw;
-  font-weight: 100;
+  font-weight: thin;
 }
 
 #carousel {
@@ -580,14 +585,12 @@ nav {
   }
 
   #dropdown-content a {
-    color: var(--main-color);
     width: auto;
     font-size: 1.5vw;
     line-height: 1vw;
     display: flex;
     text-align: left;
     padding: 1vw;
-    font-weight: thin;
   }
 
   #dropdown img {
@@ -609,15 +612,6 @@ nav {
   .dropdown:hover #dropdown-content {
     display: flex;
   }
-
-  #dropdown-content a:hover {
-    background-color: #ddd;
-  }
-
-  #dropdown-content a:nth-child(1):hover {
-    border-radius: 10;
-  }
-
   #contact {
     margin: 0vw;
     font-size: 1.5vw;
@@ -659,7 +653,7 @@ nav {
     padding-right: 5vw;
   }
 
-  .title {
+  #title {
     border-radius: 5vw;
     width: 45vw;
     height: 20vw;
@@ -668,14 +662,14 @@ nav {
     order: 2;
   }
 
-  .title p {
+  #title p {
     width: 30vw;
     padding: 2vw;
     margin-left: 2vw;
     font-size: 2.5vw;
   }
 
-  .title #logo {
+  #title #logo {
     width: 13vw;
     height: 13vw;
     border-radius: 4vw;
@@ -684,7 +678,7 @@ nav {
     margin-left: auto;
   }
 
-  .intro {
+  #intro {
     border-radius: 5vw;
     width: 40vw;
     margin: 0vw;
@@ -692,9 +686,8 @@ nav {
     order: 4;
   }
 
-  .subsandviews {
+  #subsandviews {
     padding: 3vw;
-    font-weight: 300;
   }
 
   .counters {

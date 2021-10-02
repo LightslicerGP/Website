@@ -14,8 +14,7 @@
     --down-one: #141414;
     --shadow: #080808;
     --light: #282828;
-    --text-light: #ffffff;
-    --text-dark: #000000;
+    --text: #ffffff;
   }
 }
 
@@ -27,8 +26,7 @@
     --down-one: #e3e3e3;
     --shadow: #d7d7d7;
     --light: #f7f7f7;
-    --text-light: #ffffff;
-    --text-dark: #000000;
+    --text: #000000;
   }
 }
 
@@ -80,6 +78,10 @@ body {
   padding-bottom: 3vw;
 }
 
+p {
+  color: var(--text);
+}
+
 #loader {
   position: fixed;
   z-index: 100;
@@ -104,7 +106,6 @@ body {
 }
 
 header {
-  transition: 1s;
   display: none;
   position: absolute;
 }
@@ -128,8 +129,8 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background-color: var(--main-color);
-  box-shadow: 0vw 0vw 3vw var(--text-light);
+  background-color: #181818;
+  box-shadow: 0vw 0vw 3vw var(--secondary-color);
   border-radius: 100vw;
   position: fixed;
   margin: 2vw;
@@ -220,21 +221,26 @@ nav {
   width: 39vw;
   height: auto;
   flex-wrap: wrap;
-  background-color: var(--secondary-color);
+  background-color: #ffffff;
   padding: 2vw;
   border-radius: 3vw;
   transition: height 1s;
 }
 
 #dropdown-content a {
-  color: var(--main-color);
+  color: #000000;
   font-weight: thin;
+}
+
+#dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 1vw;
 }
 
 #dropdown img {
   height: 5vw;
   width: auto;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 #contact {
@@ -248,12 +254,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-color);
+  background-color: #181818;
 }
 
-.contact:active {
-  background-color: var(--secondary-color);
-  color: var(--main-color);
+#contact:hover {
+  background-color: #ffffff;
+  color: #181818;
 }
 
 #bottom {
@@ -394,14 +400,12 @@ nav {
   }
 
   #dropdown-content a {
-    color: var(--main-color);
     width: auto;
     font-size: 1.5vw;
     line-height: 1vw;
     display: flex;
     text-align: left;
     padding: 1vw;
-    font-weight: thin;
   }
 
   #dropdown img {
@@ -422,14 +426,6 @@ nav {
 
   .dropdown:hover #dropdown-content {
     display: flex;
-  }
-
-  #dropdown-content a:hover {
-    background-color: #ddd;
-  }
-
-  #dropdown-content a:nth-child(1):hover {
-    border-radius: 10;
   }
 
   #contact {
