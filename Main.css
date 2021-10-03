@@ -75,7 +75,7 @@
 body {
   background: var(--main-color);
   margin: 0;
-  padding-bottom: 3vw;
+  padding-bottom: 7vw;
 }
 
 p {
@@ -190,7 +190,7 @@ header.open {
   flex-direction: column;
   z-index: 2;
   background-color: #00e0ff;
-  position: absolute;
+  position: fixed;
   width: 50vw;
   height: 100vh;
   border-radius: 0vw 5vw 5vw 0vw;
@@ -198,8 +198,8 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background-color: #181818;
-  box-shadow: 0vw 0vw 3vw var(--secondary-color);
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
   border-radius: 100vw;
   position: fixed;
   margin: 2vw;
@@ -399,24 +399,34 @@ nav {
 }
 
 #intro {
-  border-radius: 10vw;
+  border-radius: 5vw;
   display: grid;
   grid: auto / auto auto;
   grid-gap: 0vw;
   margin: auto;
   margin-top: 5vw;
-  width: 92vw;
+  width: 90vw;
+  height: 45vw;
+  background-image: url('/Pictures/Wallpaper1.png');
+  background-size: 150vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0vw 00vw;
 }
 
 #subsandviews {
   display: grid;
-  padding: 7vw;
-  padding-top: 0vw;
-  padding-bottom: 0vw;
+  width: 22vw;
+  height: 35vw;
+  padding: 2vw;
   margin: auto;
   flex-direction: column;
   align-content: center;
   font-weight: normal;
+  border-radius: 3vw;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
 .counters {
@@ -434,17 +444,19 @@ nav {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 2vw;
-  font-weight: thin;
   color: var(--text);
 }
 
 #introparagraph {
+  width: 46vw;
   margin: auto;
-  padding: 5vw;
-  padding-left: 0vw;
+  padding: 2vw;
   text-indent: 5vw;
   font-size: 2vw;
-  font-weight: thin;
+  border-radius: 3vw;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
 #carousel {
@@ -679,15 +691,21 @@ nav {
   }
 
   #intro {
-    border-radius: 5vw;
-    width: 40vw;
+    border-radius: 4vw;
+    width: 45vw;
+    height: 27vw;
     margin: 0vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
+    background-size: 50vw;
+    background-position: 50vw 10vw;
     order: 4;
   }
 
   #subsandviews {
-    padding: 3vw;
+    border-radius: 3vw;
+    padding: 2vw;
+    width: 12vw;
+    height: 20vw;
   }
 
   .counters {
@@ -700,8 +718,9 @@ nav {
   }
 
   #introparagraph {
-    padding: 3vw;
-    padding-left: 0vw;
+    padding: 2w;
+    width: 18vw;
+    height: 20vw;
     text-indent: 2vw;
     font-size: 1vw;
   }

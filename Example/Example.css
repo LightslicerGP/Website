@@ -75,7 +75,7 @@
 body {
   background: var(--main-color);
   margin: 0;
-  padding-bottom: 3vw;
+  padding-bottom: 7vw;
 }
 
 p {
@@ -121,7 +121,7 @@ header.open {
   flex-direction: column;
   z-index: 2;
   background-color: #00e0ff;
-  position: absolute;
+  position: fixed;
   width: 50vw;
   height: 100vh;
   border-radius: 0vw 5vw 5vw 0vw;
@@ -129,8 +129,8 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background-color: #181818;
-  box-shadow: 0vw 0vw 3vw var(--secondary-color);
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
   border-radius: 100vw;
   position: fixed;
   margin: 2vw;
@@ -298,7 +298,7 @@ nav {
 }
 
 #temporary {
-  height: auto;
+  height: 100vw;
   width: 90vw;
   box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
   background-color: var(--up-one);
@@ -466,6 +466,10 @@ nav {
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
+  }
+
+  #temporary{
+    height: auto;
   }
 
   #temporary p {
