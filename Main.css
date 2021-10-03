@@ -510,6 +510,11 @@ nav {
   background: var(--main-color);
 }
 
+ins {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
