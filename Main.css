@@ -435,7 +435,7 @@ nav {
   padding-top: 0vw;
   padding-bottom: 0vw;
   font-weight: normal;
-  color: var(--text);
+  color: #ffffff;
 }
 
 .subtitles {
@@ -444,7 +444,7 @@ nav {
   margin-bottom: 0vw;
   padding-top: 0vw;
   padding-bottom: 2vw;
-  color: var(--text);
+  color: #ffffff;
 }
 
 #introparagraph {
