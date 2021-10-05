@@ -32,19 +32,19 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Font/Montserrat-Thin.ttf');
+  src: url('/Font/Montserrat-Thin.ttf');
   font-weight: thin;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Font/Montserrat-Regular.ttf');
+  src: url('/Font/Montserrat-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Font/Montserrat-SemiBold.ttf');
+  src: url('/Font/Montserrat-SemiBold.ttf');
   font-weight: bold;
 }
 
@@ -270,7 +270,7 @@ nav {
 }
 
 #parallax {
-  background-image: url("../Pictures/FH3_End.png");
+  background-image: url("/Pictures/FH3_End.png");
   height: 40vw;
   width: 100vw;
   background-attachment: fixed;
@@ -295,26 +295,6 @@ nav {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
-}
-
-#temporary {
-  height: 100vw;
-  width: 90vw;
-  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
-  background-color: var(--up-one);
-  order: 2;
-  margin-top: 5vw;
-  border-radius: 5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#temporary p {
-  color: var(--secondary-color);
-  width: auto;
-  margin: 7vw;
-  font-size: 4vw;
 }
 
 
@@ -466,13 +446,5 @@ nav {
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
-  }
-
-  #temporary{
-    height: auto;
-  }
-
-  #temporary p {
-    font-size: 3vw;
   }
 }
