@@ -32,19 +32,19 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('Font/Montserrat-Thin.ttf');
+  src: url('../Font/Montserrat-Thin.ttf');
   font-weight: thin;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('Font/Montserrat-Regular.ttf');
+  src: url('../Font/Montserrat-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('Font/Montserrat-SemiBold.ttf');
+  src: url('../Font/Montserrat-SemiBold.ttf');
   font-weight: bold;
 }
 
@@ -80,75 +80,6 @@ body {
 
 p {
   color: var(--text);
-}
-
-#temp {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.575);
-  z-index: 3;
-}
-
-#tempbox {
-  border-radius: 2vw;
-  width: 50vw;
-  height: auto;
-  margin: auto;
-  padding: 2vw;
-  background-color: #000000;
-  padding-top: 1vw;
-}
-
-#tempbox h1 {
-  font-size: 4vw;
-  margin-bottom: 1vw;
-  margin-top: 0vw;
-}
-
-#tempbox p {
-  font-size: 2vw;
-  font-weight: thin;
-  margin-bottom: 0vw;
-  margin-top: 0vw;
-  color: #ffffff;
-}
-
-#tempbox ul {
-  margin-bottom: 2vh;
-  margin-top: 2vh;
-  padding-left: 5vw;
-}
-
-#tempbox li {
-  font-size: 2vw;
-  font-weight: thin;
-}
-
-#tempbox button {
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
-  width: 20vw;
-  height: auto;
-  font-size: 2vw;
-  font-weight: normal;
-  padding: 1vw;
-  cursor: pointer;
-  border-radius: 1vw;
-  margin: 0vw;
-}
-
-#tempbox button:hover {
-  background-color: #b3b3b3;
 }
 
 #loader {
@@ -339,7 +270,7 @@ nav {
 }
 
 #parallax {
-  background-image: url("Pictures/Rubick\'s_Cube_Background.png");
+  background-image: url("../Pictures/FH3_End.png");
   height: 40vw;
   width: 100vw;
   background-attachment: fixed;
@@ -357,158 +288,33 @@ nav {
   justify-content: center;
   font-size: 10vw;
   font-weight: bold;
-  color: #000000;
+  color: var(--text-dark);
   margin: auto;
   width: 50vw;
   border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
-#title {
-  margin: auto;
-  margin-top: 5vw;
-  border-radius: 10vw;
-  box-shadow: inset 1vw 1vw 2vw var(--shadow), inset -1vw -1vw 2vw var(--light);
-  background: var(--main-color);
-  display: flex;
-  align-items: center;
-  width: 94vw;
-  height: 42vw;
-}
-
-#title p {
-  padding: 5vw;
-  margin-left: 2vw;
-  text-align: right;
-  font-size: 5vw;
-  font-weight: normal;
-}
-
-#title #logo {
-  width: 30vw;
-  height: 30vw;
-  border-radius: 10vw;
-  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
-  background: var(--main-color);
-  padding: 2vw;
-  margin: 4vw 4vw;
-  margin-left: auto;
-  cursor: pointer;
-}
-
-#intro {
-  border-radius: 5vw;
-  display: grid;
-  grid: auto / auto auto;
-  grid-gap: 0vw;
-  margin: auto;
-  margin-top: 5vw;
+#temporary {
+  height: 100vw;
   width: 90vw;
-  height: 45vw;
-  background-image: url('Pictures/Wallpaper1.png');
-  background-size: 150vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0vw 00vw;
-}
-
-#subsandviews {
-  display: grid;
-  width: 22vw;
-  height: 35vw;
-  padding: 2vw;
-  margin: auto;
-  flex-direction: column;
-  align-content: center;
-  font-weight: normal;
-  border-radius: 3vw;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border: 0.1vw solid rgba(255, 255, 255, 0.25);
-}
-
-.counters {
-  font-size: 5vw;
-  margin-bottom: 0vw;
-  padding-top: 0vw;
-  padding-bottom: 0vw;
-  font-weight: normal;
-  color: #ffffff;
-}
-
-.subtitles {
-  font-size: 3vw;
-  margin-top: 0vw;
-  margin-bottom: 0vw;
-  padding-top: 0vw;
-  padding-bottom: 2vw;
-  color: #ffffff;
-}
-
-#introparagraph {
-  width: 46vw;
-  margin: auto;
-  padding: 2vw;
-  text-indent: 5vw;
-  font-size: 2vw;
-  border-radius: 3vw;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border: 0.1vw solid rgba(255, 255, 255, 0.25);
-  color: #ffffff;
-}
-
-#carousel {
+  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
+  background-color: var(--up-one);
+  order: 2;
   margin-top: 5vw;
-}
-
-#container {
-  width: 90vw;
-  margin: auto;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  display: flex;
-  border-radius: 6vw;
-  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
-  background: var(--up-one);
-}
-
-.item {
-  display: inline;
-  align-items: center;
-  object-fit: contain;
-  height: 45vw;
-}
-
-.carouselshowcase {
-  flex: 0 0 5vw;
-  margin: 1vw;
-  height: 43vw;
-  width: 88vw;
   border-radius: 5vw;
-  object-fit: cover;
-}
-
-#links {
-  margin-top: 3vw;
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-#links a {
-  border-radius: 10vw;
-  display: inline-flex;
-  padding: 2vw 6vw;
-  background: var(--up-one);
-  box-shadow: 0vw 0vw 2vw var(--shadow);
-  margin: 0 3vw;
-}
-
-#links a:hover {
-  background: var(--main-color);
+#temporary p {
+  color: var(--secondary-color);
+  width: auto;
+  margin: 7vw;
+  font-size: 4vw;
 }
 
 
@@ -584,10 +390,6 @@ nav {
     width: auto;
   }
 
-  #container a {
-    height: 23vw;
-  }
-
   #navbar a {
     transition: all 0.3s ease 0s;
     font-size: 1.5vw;
@@ -625,6 +427,7 @@ nav {
   .dropdown:hover #dropdown-content {
     display: flex;
   }
+
   #contact {
     margin: 0vw;
     font-size: 1.5vw;
@@ -648,7 +451,7 @@ nav {
 
   #parallax {
     height: auto;
-    background-position: top left;
+    background-position: center top;
     background-size: 50vw;
     border-radius: 0vw 0vw 5vw 5vw;
     padding: 0vw;
@@ -659,90 +462,17 @@ nav {
 
   #parallax p {
     height: auto;
-    width: auto;
     font-size: 6vw;
+    margin: 5vw;
     border-radius: 3vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
-
-  #title {
-    border-radius: 5vw;
-    width: 45vw;
-    height: 20vw;
-    margin: 0vw;
-    margin-top: 2vw;
-    order: 2;
-  }
-
-  #title p {
-    width: 30vw;
-    padding: 2vw;
-    margin-left: 2vw;
-    font-size: 2.5vw;
-  }
-
-  #title #logo {
-    width: 13vw;
-    height: 13vw;
-    border-radius: 4vw;
     padding: 1vw;
-    margin: 2vw 3vw;
-    margin-left: auto;
   }
 
-  #intro {
-    border-radius: 4vw;
-    width: 45vw;
-    height: 27vw;
-    margin: 0vw;
-    margin-top: 3vw;
-    background-size: 85vw;
-    background-position: 50vw 0vw;
-    order: 4;
+  #temporary{
+    height: auto;
   }
 
-  #subsandviews {
-    border-radius: 3vw;
-    padding: 2vw;
-    width: 12vw;
-    height: 20vw;
-  }
-
-  .counters {
+  #temporary p {
     font-size: 3vw;
-  }
-
-  .subtitles {
-    font-size: 2vw;
-    padding-bottom: 1vw;
-  }
-
-  #introparagraph {
-    width: 18vw;
-    height: 20vw;
-    text-indent: 2vw;
-    font-size: 1vw;
-  }
-
-  #carousel {
-    order: 3;
-  }
-
-  #container {
-    width: 46vw;
-    border-radius: 4vw;
-    order: 3;
-  }
-
-  .carouselshowcase {
-    height: 21vw;
-    width: 44vw;
-    border-radius: 3vw;
-  }
-
-  #links a {
-    padding: 1vw 3vw;
-    margin: 0 2vw;
   }
 }

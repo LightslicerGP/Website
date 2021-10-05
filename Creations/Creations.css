@@ -101,7 +101,7 @@ header a {
   color: #181818;
 }
 
-.bottom {
+#bottom {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -110,7 +110,7 @@ header a {
   align-content: center;
 }
 
-.parallax {
+#parallax {
   background-image: url(../Pictures/SimplyCubed_EndFortress.png);
   height: 46vw;
   width: 100vw;
@@ -126,7 +126,7 @@ header a {
   justify-content: center;
 }
 
-.parallax p {
+#parallax p {
   display: flex;
   justify-content: center;
   font-size: 10vw;
@@ -143,12 +143,12 @@ header a {
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
-.parallax a {
+#parallax a {
   font-weight: 300;
   font-size: 2vw;
 }
 
-.parallax a:hover {
+#parallax a:hover {
   text-decoration: underline;
 }
 
@@ -222,11 +222,11 @@ header a {
     padding: 0.5vw 1vw;
   }
 
-  .bottom {
+  #bottom {
     padding-top: 6vw;
   }
 
-  .parallax {
+  #parallax {
     width: 45vw;
     height: 25vw;
     margin-top: 0vw;
@@ -236,7 +236,7 @@ header a {
     background-size: 70vw;
   }
 
-  .parallax p {
+  #parallax p {
     font-size: 6vw;
     width: 37vw;
     margin: 5vw;

@@ -95,13 +95,13 @@ header a {
   color: #181818;
 }
 
-.bottom {
+#bottom {
   display: flex;
   flex-direction: column;
   z-index: -1;
 }
 
-.parallax {
+#parallax {
   background-image: url("../Pictures/My_Future.png");
   height: 40vw;
   background-attachment: fixed;
@@ -114,7 +114,7 @@ header a {
   display: flex;
 }
 
-.parallax p {
+#parallax p {
   display: flex;
   justify-content: center;
   font-size: 10vw;
@@ -127,7 +127,7 @@ header a {
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
-.channel {
+#channel {
   display: flex;
   width: 85vw;
   margin: auto;
@@ -135,7 +135,7 @@ header a {
   flex-direction: row;
 }
 
-.channel img {
+#channel img {
   width: 30vw;
   height: auto;
   margin: auto;
@@ -145,14 +145,14 @@ header a {
   padding: 2vw;
 }
 
-.channel a {
+#channel a {
   height: auto;
   width: auto;
   margin: auto;
   border-radius: 3vw;
 }
 
-.details {
+#details {
   width: auto;
   padding-left: 3vw;
   display: flex;
@@ -160,7 +160,7 @@ header a {
   justify-content: center;
 }
 
-.details h1 {
+#details h1 {
   font-size: 5vw;
   font-weight: 300;
   margin: 0vw;
@@ -169,7 +169,7 @@ header a {
   height: auto;
 }
 
-.details p {
+#details p {
   margin: 0vw;
   font-size: 3vw;
   font-weight: 100;
@@ -177,7 +177,7 @@ header a {
   width: auto;
 }
 
-.info {
+#info {
   box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
   border-radius: 10vw;
   display: flex;
@@ -189,7 +189,7 @@ header a {
   flex-direction: column;
 }
 
-.info p {
+#info p {
   margin: 0vw;
   font-size: 3vw;
   text-indent: 5vw;
@@ -227,7 +227,7 @@ header a {
     justify-content: flex-start;
   }
 
-  .parallax {
+  #parallax {
     height: 20vw;
     background-position: 11% 2%;
     background-size: 56vw;
@@ -240,21 +240,21 @@ header a {
     z-index: -1;
   }
 
-  .parallax p {
+  #parallax p {
     font-size: 6vw;
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
   }
 
-  .surround {
+  #surround {
     height: 5vw;
     width: 27vw;
     margin-right: auto;
     margin-left: 3vw;
   }
 
-  .channel {
+  #channel {
     border-radius: 5vw;
     width: 30vw;
     height: auto;
@@ -263,19 +263,19 @@ header a {
     flex-direction: column;
   }
 
-  .channel img {
+  #channel img {
     width: 25vw;
     border-radius: 4vw;
     padding: 1vw;
   }
 
-  .channel a {
+  #channel a {
     height: 27vw;
     width: 27vw;
     border-radius: 4vw;
   }
 
-  .details h1 {
+  #details h1 {
     font-size: 150%;
     text-indent: 0vw;
     padding: 1vw;
@@ -284,14 +284,14 @@ header a {
     padding-top: 2vw;
   }
 
-  .details p {
+  #details p {
     font-size: 100%;
     text-indent: 0vw;
     padding: 1vw;
     margin: 0vw;
   }
 
-  .info {
+  #info {
     border-radius: 5vw;
     padding: 4vw;
     width: 50vw;
@@ -301,7 +301,7 @@ header a {
     flex-direction: column;
   }
 
-  .info p {
+  #info p {
     margin: 0vw;
     font-size: 90%;
     text-indent: 3vw;
