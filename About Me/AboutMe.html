@@ -5,19 +5,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="AboutMe.css">
-  <link rel="shortcut icon" type="image/png" href="../Pictures/LSPGv3.png">
+  <link rel="stylesheet" href="/Common/Navbar.css">
+  <link rel="stylesheet" href="/About Me/AboutMe.css">
+  <link rel="shortcut icon" type="image/png" href="/Pictures/LSPGv3.png">
 </head>
 
 <body>
+  <div id="loader">
+    <img src="/Pictures/Loading.gif">
+  </div>
+  <div id="navbutton">
+    <img src="/Pictures/plus.png">
+  </div>
   <header>
-    <a href="../index.html">
-      <img class="logo" src="../Pictures/LSPGv3.png">
-    </a>
+    <div id="logo">
+      <a href="/index.html">
+        <img src="/Pictures/LSPGv3.png">
+      </a>
+    </div>
     <nav>
-      <ul class="navbar">
+      <ul id="navbar">
         <li>
-          <a href="../Creations/Creations.html">Creations</a>
+          <div id="dropdown">
+            <a href="/Creations/Creations.html">Creations</a>
+            <img src="/Pictures/arrow.png" id="dropdownimg" onclick="clicked()">
+            <div id="dropdown-content" style="display: none;">
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/texture-packs">SimplyCubed</a>
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/skin-packs">SimplySkin</a>
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/maps">SimplySurvival</a>
+            </div>
+          </div>
         </li>
         <li>
           <a href="https://github.com/LightslicerGP/Website">Github</a>
@@ -26,11 +43,11 @@
           <a href="#">Showcase</a>
         </li>
         <li>
-          <a href="../About Me/AboutMe.html">About me</a>
+          <a href="/About Me/AboutMe.html">About me</a>
         </li>
       </ul>
     </nav>
-    <a class="contact" href="https://sites.google.com/view/lightslicergp/contact">
+    <a id="contact" href="https://sites.google.com/view/lightslicergp/contact">
       Contact
     </a>
   </header>
@@ -41,7 +58,7 @@
     <div id="surround">
       <div id="channel">
         <a href="https://www.youtube.com/c/LightslicerGP">
-          <img src="../Pictures/LSPGv3.png">
+          <img src="/Pictures/LSPGv3.png">
         </a>
         <div id="details">
           <h1>
@@ -68,4 +85,5 @@
       </p>
     </div>
   </div>
+  <script src="/Common/Navbar.js"></script>
 </body>

@@ -1,103 +1,4 @@
-* {
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-@keyframes navfade {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-body {
-  background: #181818;
-  margin: 0;
-  padding-bottom: 3vw;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vw;
-  background-color: #00e0ff;
-  box-shadow: 0vw 0vw 2vw #00e1ff80;
-  position: fixed;
-  top: 0;
-  width: 98%;
-  height: auto;
-  border-radius: 0vw 0vw 2vw 2vw;
-  z-index: 1;
-}
-
-header .logo {
-  width: auto;
-  height: 4vw;
-  cursor: pointer;
-  border-radius: 1vw;
-  padding: 0vw;
-}
-
-header a {
-  width: 4vw;
-  height: 4vw;
-  animation: 0.5s ease-out 0s 1 navfade;
-}
-
-.navbar {
-  list-style: none;
-  padding: 0vw;
-  margin: 0vw;
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 0vw 0.5vw;
-  animation: 0.5s ease-out 0s 1 navfade;
-}
-
-.navbar a {
-  transition: all 0.3s ease 0s;
-  text-decoration: none;
-  font-size: 3vw;
-  font-weight: 300;
-}
-
-.navbar a:hover {
-  color: #181818;
-}
-
-.contact {
-  text-decoration: none;
-  display: flex;
-  font-size: 2vw;
-  background-color: #181818;
-  border: none;
-  border-radius: 2vw;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  padding: 0.5vw 1.5vw;
-  width: auto;
-  height: auto;
-  margin-top: 0.5vw;
-  font-weight: 300;
-}
-
-.contact:hover {
-  background-color: #ffffff;
-  color: #181818;
-}
-
 #bottom {
-  display: flex;
-  flex-direction: column;
   z-index: -1;
 }
 
@@ -109,7 +10,6 @@ header a {
   background-repeat: no-repeat;
   background-size: 100vw;
   border-radius: 0vw 0vw 10vw 10vw;
-  padding-top: 5vw;
   z-index: 0;
   display: flex;
 }
@@ -146,8 +46,8 @@ header a {
 }
 
 #channel a {
-  height: auto;
-  width: auto;
+  height: 34vw;
+  width: 34vw;
   margin: auto;
   border-radius: 3vw;
 }
@@ -201,30 +101,11 @@ header a {
 
 
 @media (orientation: landscape) {
-  header .logo {
-    height: 4vw;
-    border-radius: 1vw;
-  }
 
-  .li {
-    display: inline-block;
-    padding: 0vw 1vw;
-  }
-
-  .navbar a {
-    font-size: 2vw;
-  }
-
-  .cta {
-    font-size: 2vw;
-    padding: 0.5vw 1vw;
-  }
-
-  .bottom {
+  #bottom {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
   }
 
   #parallax {
@@ -241,7 +122,7 @@ header a {
   }
 
   #parallax p {
-    font-size: 6vw;
+    font-size: 6vw; 
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
