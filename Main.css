@@ -93,7 +93,7 @@ body {
 }
 
 #parallax {
-  background-image: url("./Pictures/Rubick\'s_Cube_Background.png");
+  background-image: url('./Pictures/Rubick\'s_Cube_Background.png');
   height: 40vw;
   width: 100vw;
   background-attachment: fixed;
