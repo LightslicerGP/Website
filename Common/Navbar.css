@@ -20,12 +20,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #e7e7e7;
+    --main-color: #e0e0e0;
     --secondary-color: #000000;
-    --up-one: #ebebeb;
-    --down-one: #e3e3e3;
-    --shadow: #d7d7d7;
-    --light: #f7f7f7;
+    --up-one: #ededed;
+    --down-one: #d4d4d4;
+    --shadow: #bebebe;
+    --light: #ffffff;
     --text: #000000;
   }
 }
@@ -129,7 +129,7 @@ header.open {
 
 #navbutton {
   -webkit-appearance: none;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   border-radius: 100vw;
   position: fixed;
@@ -191,17 +191,16 @@ nav {
   margin: 0vw;
 }
 
+#navbar a {
+  padding: 0vw;
+  font-size: 4vw;
+}
 #navbar a:hover {
   color: #181818;
 }
 
 #navbar li {
   width: 25vw;
-}
-
-#navbar a {
-  padding: 0vw;
-  font-size: 4vw;
 }
 
 #dropdown {
@@ -437,7 +436,6 @@ nav {
     border-radius: 0vw 0vw 5vw 5vw;
     padding: 0vw;
     width: 45vw;
-    order: 1;
     z-index: -1;
   }
 
