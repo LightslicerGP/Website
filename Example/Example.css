@@ -1,3 +1,11 @@
+#parallax {
+  background-image: url('../Pictures/FH3_End.png');
+}
+
+#parallax p {
+  color: #000000;
+}
+
 #temporary {
   height: 100vw;
   width: 90vw;
