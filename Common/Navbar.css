@@ -1,9 +1,11 @@
 * {
   font-family: 'Montserrat';
-  color: #ffffff;
+  color: var(--text);
   font-weight: normal;
   list-style: none;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -253,6 +255,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #ffffff;
   background-color: #181818;
 }
 
@@ -282,17 +285,17 @@ nav {
 }
 
 #parallax p {
-  padding: 1vw;
+  padding: 1vw 5vw 1vw 5vw;
   display: flex;
   justify-content: center;
   font-size: 10vw;
   font-weight: bold;
   color: var(--text);
   margin: auto;
-  width: 50vw;
+  width: auto;
   border-radius: 5vw;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
@@ -308,7 +311,7 @@ nav {
 
 @media (orientation: landscape) {
   body {
-    padding-bottom: 2vw;
+    padding-bottom: 3vw;
   }
 
   #dropdownimg {
@@ -424,7 +427,6 @@ nav {
   }
 
   #bottom {
-    flex-direction: row;
     padding-top: 4vw;
   }
 
@@ -439,10 +441,7 @@ nav {
   }
 
   #parallax p {
-    height: auto;
     font-size: 6vw;
-    margin: 5vw;
     border-radius: 3vw;
-    padding: 1vw;
   }
 }

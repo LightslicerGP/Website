@@ -4,23 +4,18 @@
 
 hr {
   width: 80vw;
+  background-color: var(--text);
+  height: 0.5vw;
+  border-style: none;
+  border-radius: 100vw;
 }
 
 #parallax {
   background-image: url("../Pictures/My_Future.png");
-  height: 40vw;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  border-radius: 0vw 0vw 10vw 10vw;
-  z-index: -1;
-  display: flex;
 }
 
 #parallax p {
   color: #000000;
-  width: 60vw;
 }
 
 #channel {
@@ -35,9 +30,9 @@ hr {
   width: 30vw;
   height: auto;
   margin: auto;
-  box-shadow: 1vw 1vw 2vw #080808, -1vw -1vw 2vw #282828;
+  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
   border-radius: 8vw;
-  background: #1c1c1c;
+  background: var(--up-one);
   padding: 2vw;
 }
 
@@ -74,10 +69,10 @@ hr {
 }
 
 #info {
-  box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
+  box-shadow: inset 1vw 1vw 3vw var(--shadow), inset -1vw -1vw 3vw var(--light);
   border-radius: 8vw;
   display: flex;
-  background: #1c1c1c;
+  background: var(--down-one);
   padding: 7vw;
   width: 80vw;
   margin: auto;
@@ -100,6 +95,7 @@ hr {
 
   hr {
     width: 50vw;
+    height: 0.3vw;
   }
 
   #bottom {
@@ -109,21 +105,12 @@ hr {
   }
 
   #parallax {
-    background-position: 11% 2%;
-    background-size: 56vw;
-    border-radius: 0vw 0vw 5vw 5vw;
+    background-position: 5vw 0vw;
+    background-size: 55vw;
     margin-left: auto;
     margin-right: 3vw;
     width: 55vw;
     height: 19vw;
-    order: 0;
-  }
-
-  #parallax p {
-    font-size: 6vw; 
-    margin: 5vw;
-    border-radius: 3vw;
-    padding: 1vw;
   }
 
   #surround {

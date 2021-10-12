@@ -4,6 +4,10 @@ up one= 90
 down one= 70
 shadow= 60
 light= 100
+
+
+box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
+
 to hightlight something do: border: 1px solid blue;
 font: <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
