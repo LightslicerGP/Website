@@ -53,7 +53,7 @@ hr {
 
 #details h1 {
   font-size: 5vw;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0vw;
   margin-bottom: 2vw;
   width: auto;
@@ -63,7 +63,7 @@ hr {
 #details p {
   margin: 0vw;
   font-size: 3vw;
-  font-weight: 100;
+  font-weight: thin;
   height: auto;
   width: auto;
 }
@@ -84,7 +84,7 @@ hr {
   margin: 0vw;
   font-size: 3vw;
   text-indent: 5vw;
-  font-weight: 100;
+  font-weight: thin;
 }
 
 
