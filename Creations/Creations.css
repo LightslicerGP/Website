@@ -53,7 +53,7 @@ a {
 
 .section {
   width: 36vw;
-  margin-top: 2vw;
+  margin-top: 4vw;
   padding: 2vw;
   height: 15vw;
   border-radius: 3vw;
@@ -94,6 +94,7 @@ a {
 
   .section {
     height: 10vw;
+    margin-top: 3vw;
   }
 
   .type {

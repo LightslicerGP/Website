@@ -241,6 +241,7 @@
   }
 
   #parallax {
+    height: 23vw;
     background-position: top left;
   }
 

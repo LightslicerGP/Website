@@ -196,6 +196,7 @@ nav {
 #navbar a {
   padding: 0vw;
   font-size: 4vw;
+  color: #ffffff;
 }
 #navbar a:hover {
   color: #181818;
@@ -431,7 +432,7 @@ nav {
   }
 
   #parallax {
-    height: auto;
+    height: 16vw;
     background-position: center top;
     background-size: 50vw;
     border-radius: 0vw 0vw 5vw 5vw;
