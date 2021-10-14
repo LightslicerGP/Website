@@ -17,7 +17,7 @@ a {
 }
 
 #parallax a {
-  font-weight: 300;
+  font-weight: normal;
   font-size: 2vw;
 }
 
@@ -63,7 +63,7 @@ a {
 .name {
   width: auto;
   font-size: 100%;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0vw;
 }
 

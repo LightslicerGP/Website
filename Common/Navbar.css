@@ -6,6 +6,7 @@
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +21,7 @@
   }
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --main-color: #e0e0e0;
     --secondary-color: #000000;
@@ -34,8 +35,8 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('/Font/Montserrat-Thin.ttf');
-  font-weight: thin;
+  src: url('/Font/Montserrat-ExtraLight.ttf');
+  font-weight: 100;
 }
 
 @font-face {
@@ -231,7 +232,7 @@ nav {
 
 #dropdown-content a {
   color: #000000;
-  font-weight: thin;
+  font-weight: 100;
 }
 
 #dropdown-content a:hover {

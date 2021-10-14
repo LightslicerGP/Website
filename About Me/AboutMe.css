@@ -63,7 +63,7 @@ hr {
 #details p {
   margin: 0vw;
   font-size: 3vw;
-  font-weight: thin;
+  font-weight: 100;
   height: auto;
   width: auto;
 }
@@ -84,7 +84,7 @@ hr {
   margin: 0vw;
   font-size: 3vw;
   text-indent: 5vw;
-  font-weight: thin;
+  font-weight: 100;
 }
 
 
@@ -142,7 +142,7 @@ hr {
   }
 
   #details h1 {
-    font-size: 150%;
+    font-size: 3.5vw;
     text-indent: 0vw;
     padding: 1vw;
     margin: 0vw;
@@ -151,7 +151,7 @@ hr {
   }
 
   #details p {
-    font-size: 100%;
+    font-size: 1.5vw;
     text-indent: 0vw;
     padding: 1vw;
     margin: 0vw;
@@ -169,7 +169,7 @@ hr {
 
   #info p {
     margin: 0vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-indent: 3vw;
   }
 }

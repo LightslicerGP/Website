@@ -6,8 +6,8 @@
   color: #ffffff;
 }
 
-#temporary {
-  height: 100vw;
+.item {
+  height: 50vw;
   width: 90vw;
   box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
   background-color: var(--up-one);
@@ -15,15 +15,34 @@
   margin-top: 5vw;
   border-radius: 5vw;
   display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.title {
+  background-image: url('../Pictures/SimplyCubed_Bastion.png');
+  background-size: 90vw;
+  border-radius: 3vw;
+  margin: 2vw;
+  height: 35%;
+  width: 86vw;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#temporary p {
-  color: var(--secondary-color);
-  width: auto;
-  margin: 7vw;
-  font-size: 4vw;
+.title h1 {
+  border-radius: 2vw;
+  padding: 1vw 5vw 1vw 5vw;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
+}
+
+.item p {
+  margin: 3vw;
+  height: 65%;
 }
 
 
@@ -37,11 +56,14 @@
 
 
 @media (orientation: landscape) {
-  #temporary{
-    height: auto;
+  #parallax {
+    width: 58vw;
+    height: 20vw;
+    background-size: 60vw;
   }
-
-  #temporary p {
-    font-size: 3vw;
+  
+  #item {
+    height: 43vw;
+    width: 43vw;
   }
 }

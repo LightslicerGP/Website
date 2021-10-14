@@ -34,7 +34,7 @@
 
 #tempbox p {
   font-size: 2vw;
-  font-weight: thin;
+  font-weight: 100;
   margin-bottom: 0vw;
   margin-top: 0vw;
   color: inherit;
@@ -49,7 +49,7 @@
 
 #tempbox li {
   font-size: 2vw;
-  font-weight: thin;
+  font-weight: 100;
   color: inherit;
 }
 
@@ -166,6 +166,7 @@
   padding: 2vw;
   text-indent: 5vw;
   font-size: 2vw;
+  font-weight: 100;
   border-radius: 3vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
