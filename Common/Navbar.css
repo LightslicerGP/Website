@@ -21,7 +21,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --main-color: #e0e0e0;
     --secondary-color: #000000;

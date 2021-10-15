@@ -32,7 +32,6 @@ hr {
   margin: auto;
   box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
   border-radius: 8vw;
-  background: var(--up-one);
   padding: 2vw;
 }
 

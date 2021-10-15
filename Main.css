@@ -162,8 +162,11 @@
 
 #introparagraph {
   width: 46vw;
+  height: 35vw;
   margin: auto;
   padding: 2vw;
+  padding-top: auto;
+  padding-bottom: auto;
   text-indent: 5vw;
   font-size: 2vw;
   font-weight: 100;
@@ -186,7 +189,6 @@
   display: flex;
   border-radius: 6vw;
   box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
-  background: var(--up-one);
 }
 
 .item {

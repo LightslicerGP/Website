@@ -10,7 +10,6 @@
   height: 100vw;
   width: 90vw;
   box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
-  background-color: var(--up-one);
   order: 2;
   margin-top: 5vw;
   border-radius: 5vw;

@@ -10,7 +10,6 @@
   height: 50vw;
   width: 90vw;
   box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
-  background-color: var(--up-one);
   order: 2;
   margin-top: 5vw;
   border-radius: 5vw;
@@ -18,6 +17,12 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+}
+
+.item p {
+  font-size: 4vw;
+  margin: 3vw;
+  height: 65%;
 }
 
 .title {
@@ -33,16 +38,12 @@
 }
 
 .title h1 {
+  font-size: 5vw;
   border-radius: 2vw;
   padding: 1vw 5vw 1vw 5vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
-}
-
-.item p {
-  margin: 3vw;
-  height: 65%;
 }
 
 
@@ -57,13 +58,25 @@
 
 @media (orientation: landscape) {
   #parallax {
-    width: 58vw;
-    height: 20vw;
-    background-size: 60vw;
+    width: 100vw;
+    height: 25vw;
+    background-size: 100vw;
   }
   
-  #item {
-    height: 43vw;
+  .item {
+    height: 41vw;
     width: 43vw;
+  }
+
+  .item p {
+    font-size: 2.5vw;
+  }
+
+  .title {
+    width: 39vw;
+  }
+
+  .title h1 {
+    font-size: 3.5vw;
   }
 }
