@@ -13,8 +13,6 @@
   :root {
     --main-color: #181818;
     --secondary-color: #ffffff;
-    --up-one: #1c1c1c;
-    --down-one: #141414;
     --shadow: #080808;
     --light: #282828;
     --text: #ffffff;
@@ -25,8 +23,6 @@
   :root {
     --main-color: #e0e0e0;
     --secondary-color: #000000;
-    --up-one: #ededed;
-    --down-one: #d4d4d4;
     --shadow: #bebebe;
     --light: #ffffff;
     --text: #000000;
@@ -351,7 +347,7 @@ nav {
     height: 3vw;
     cursor: pointer;
     padding: 0vw;
-    border-radius: 1vw;
+    border-radius: 0.7vw;
   }
 
   header a {

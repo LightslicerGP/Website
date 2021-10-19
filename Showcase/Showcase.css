@@ -6,6 +6,11 @@
   color: #ffffff;
 }
 
+#bottom a {
+  width: auto;
+  height: auto;
+}
+
 .item {
   height: 50vw;
   width: 90vw;
@@ -40,7 +45,7 @@
 .title h1 {
   font-size: 5vw;
   border-radius: 2vw;
-  padding: 1vw 5vw 1vw 5vw;
+  padding: 1vw 2vw 1vw 2vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
