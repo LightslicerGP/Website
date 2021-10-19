@@ -26,5 +26,5 @@ function clicked() {
     dropdown.style.display = "none";
     dropdown.style.height = null;
     dropdownimg.style.transform = null;
-  };
-};
+  }
+}

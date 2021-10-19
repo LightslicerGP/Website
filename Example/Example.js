@@ -4,7 +4,7 @@
 
 var LightslicerGP = Math.ceil(Math.random() * (1000 - 0) + 0);
 
-document.cookie = "name="+LightslicerGP;
+document.cookie = "name=" + LightslicerGP;
 document.cookie = "id=24";
 
 //set the word/variable(const) "cookies" to be the list of cookies on the page
