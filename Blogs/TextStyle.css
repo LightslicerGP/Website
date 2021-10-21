@@ -1,0 +1,98 @@
+* {
+  margin: 0vw;
+}
+
+#parallax {
+  background-image: url('../Pictures/SimplySurvival_Entrance.png');
+}
+
+#parallax p {
+  color: #000000;
+}
+
+section {
+  box-shadow: inset 1vw 1vw 3vw var(--shadow), inset -1vw -1vw 3vw var(--light);
+  border-radius: 5vw;
+  padding: 5vw;
+  margin: 2vw;
+  width: 90vw;
+}
+
+b {
+
+}
+
+i {
+
+}
+
+small {
+
+}
+
+p {
+  font-weight: 100;
+  text-indent: 3vw;
+  font-size: 3vw;
+}
+
+mark {
+
+}
+
+del {
+
+}
+
+ins {
+
+}
+
+sub {
+
+}
+
+sup {
+
+}
+
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 7vw;
+}
+
+h3 {
+  font-size: 6vw;
+}
+
+h4 {
+  font-size: 5vw;
+}
+
+h5 {
+  font-size: 4vw;
+}
+
+h6 {
+  font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media (orientation: landscape) {
+  #parallax {
+    height: 20vw;
+    background-size: 50vw;
+    background-position: center top;
+  }
+}
