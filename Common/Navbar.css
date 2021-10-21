@@ -355,7 +355,7 @@ nav {
     width: 3vw;
     height: 3vw;
     padding: 0vw;
-    animation: 0.5s ease-out 0s 1 navfade;
+    animation: 0.5s ease-out 0.2s 1 navfade;
   }
 
   #navbar {
@@ -366,7 +366,7 @@ nav {
   #navbar li {
     display: inline-block;
     padding: 0vw 1vw;
-    animation: 0.5s ease-out 0s 1 navfade;
+    animation: 0.5s ease-out 0.2s 1 navfade;
     align-content: center;
     width: auto;
   }

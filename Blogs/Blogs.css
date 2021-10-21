@@ -1,5 +1,52 @@
+#parallax {
+  background-image: url('../Pictures/SimplySurvival_Entrance.png');
+}
+
 #parallax p {
   color: #000000;
+}
+
+.item {
+  height: auto;
+  width: 90vw;
+  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
+  order: 2;
+  margin-top: 5vw;
+  border-radius: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.item p {
+  font-size: 3vw;
+  font-weight: 100;
+  margin: 3vw;
+  margin-bottom: 2.5vw;
+  width: 84vw;
+}
+
+.title {
+  background-image: url('../Pictures/SimplyCubed_Bastion.png');
+  background-size: 90vw;
+  border-radius: 3vw;
+  margin: 2vw;
+  height: auto;
+  width: 86vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 4vw;
+  max-width: 70vw;
+  border-radius: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
 
 
@@ -13,5 +60,29 @@
 
 
 @media (orientation: landscape) {
-  
+  #parallax {
+    height: 20vw;
+    background-size: 50vw;
+    background-position: 1vw 3vw;
+  }
+
+  .item {
+    height: auto;
+    width: 43vw;
+  }
+
+  .item p {
+    font-size: 2vw;
+    margin-top: 2vw;
+    width: 37vw;
+  }
+
+  .title {
+    width: 39vw;
+  }
+
+  .title h1 {
+    font-size: 3.5vw;
+    max-width: 30vw;
+  }
 }
