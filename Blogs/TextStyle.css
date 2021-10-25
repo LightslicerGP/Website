@@ -9,6 +9,8 @@
 #parallax p {
   color: #000000;
   text-indent: 0vw;
+  font-size: 7vw;
+  max-width: 65vw;
 }
 
 section {
@@ -16,19 +18,6 @@ section {
   border-radius: 5vw;
   padding: 5vw;
   margin: 2vw;
-  width: 90vw;
-}
-
-b {
-
-}
-
-i {
-
-}
-
-small {
-
 }
 
 p {
@@ -38,23 +27,20 @@ p {
 }
 
 mark {
-
+  background-color: #00ffff;
+  color: #000000;
 }
 
 del {
-
+  text-decoration: line-through;
 }
 
 ins {
-
+  text-decoration: underline;
 }
 
-sub {
-
-}
-
-sup {
-
+sub, sup {
+  font-size: 2vw;
 }
 
 h1 {
@@ -92,8 +78,44 @@ h6 {
 
 @media (orientation: landscape) {
   #parallax {
-    height: 20vw;
-    background-size: 50vw;
+    height: 85vh;
+    background-size: 100vw;
     background-position: center top;
+    width: 100vw;
+  }
+
+  #parallax p {
+    max-width: 50vw;
+    font-size: 4vw;
+  }
+
+  p {
+    font-weight: 100;
+    text-indent: 3vw;
+    font-size: 2vw;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+  
+  h2 {
+    font-size: 6vw;
+  }
+  
+  h3 {
+    font-size: 5vw;
+  }
+  
+  h4 {
+    font-size: 4vw;
+  }
+  
+  h5 {
+    font-size: 3vw;
+  }
+  
+  h6 {
+    font-size: 2vw;
   }
 }
