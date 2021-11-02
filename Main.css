@@ -88,25 +88,28 @@
   display: flex;
   align-items: center;
   width: 94vw;
-  height: 42vw;
+  height: auto;
 }
 
 #title p {
-  padding: 5vw;
-  margin-left: 2vw;
+  padding: 4vw;
+  margin: auto;
   text-align: right;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: normal;
 }
 
-#title #logo {
+#title a {
+  margin: 4vw;
+}
+
+#title img {
   width: 30vw;
   height: 30vw;
-  border-radius: 10vw;
+  border-radius: 8vw;
   box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
   background: var(--main-color);
   padding: 2vw;
-  margin: 4vw 4vw;
   margin-left: auto;
   cursor: pointer;
 }
@@ -251,26 +254,27 @@
   #title {
     border-radius: 5vw;
     width: 45vw;
-    height: 20vw;
+    height: 19vw;
     margin: 0vw;
     margin-top: 2vw;
     order: 2;
   }
 
   #title p {
-    width: 30vw;
-    padding: 2vw;
-    margin-left: 2vw;
+    width: auto;
+    padding: 0vw;
     font-size: 2.5vw;
   }
 
-  #title #logo {
+  #title a {
+    margin: 2vw;
+  }
+
+  #title img {
     width: 13vw;
     height: 13vw;
     border-radius: 4vw;
     padding: 1vw;
-    margin: 2vw 3vw;
-    margin-left: auto;
   }
 
   #intro {
