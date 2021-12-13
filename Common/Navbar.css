@@ -230,7 +230,6 @@ nav {
 #dropdown-content a {
   color: #000000;
   font-weight: 100;
-  transition: none;
 }
 
 #dropdown-content a:hover {
@@ -388,6 +387,7 @@ nav {
     display: flex;
     text-align: left;
     padding: 1vw;
+    transition: none;
   }
 
   #dropdown img {
