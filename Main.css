@@ -15,6 +15,9 @@
 }
 
 #tempbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border-radius: 2vw;
   width: 50vw;
   height: auto;
@@ -69,6 +72,19 @@
 
 #tempbox button:hover {
   background-color: #b3b3b3;
+}
+
+#tempbutton {
+  width: 5vw !important;
+  height: 5vw !important;
+  margin-left: 12vw !important;
+  margin-top: 1vw !important;
+}
+
+#tempbutton img{
+  width: 3vw;
+  height: 3vw;
+  transform: rotate(45deg);
 }
 
 #parallax {

@@ -46,3 +46,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+/*
+    document.getElementById("temp").modal.style.display = "none"; */
