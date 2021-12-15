@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   border-radius: 2vw;
   width: 50vw;
-  height: auto;
+  height: 38vw;
   margin: auto;
   padding: 2vw;
   color: #ffffff;
@@ -220,7 +220,7 @@
 .carouselshowcase {
   flex: 0 0 5vw;
   margin: 1vw;
-  height: 43vw;
+  height: 43.4vw;
   width: 88vw;
   border-radius: 5vw;
   object-fit: cover;
