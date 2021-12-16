@@ -61,12 +61,18 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-gap: 2vmin;
-  padding: 2vmin;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+  padding: 2vw;
 }
 
-body > div {
+#sideone, #sidetwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vw;
+}
+
+body > div > div {
   aspect-ratio: 1;
 }
 
@@ -81,26 +87,26 @@ body > div {
   --span: span 1;
   background-color: #eeff00;
   border-radius: 2vw;
-  background-size: 12vw;
+  background-size: 11.1vw;
 }
 
 .four {
   --span: span 2;
   background-color: #f00;
   border-radius: 4vw;
-  background-size: 24vw;
+  background-size: 23.6vw;
 }
 
 .two {
   --span: span 4;
   background-color: #3cff00;
   border-radius: 6vw;
-  background-size: 49vw;
+  background-size: 48.5vw;
 }
 
 .one {
   --span: span 8;
   background-color: #0ff;
   border-radius: 8vw;
-  background-size: 98vw;
+  background-size: 97.6vw;
 }
