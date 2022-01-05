@@ -64,16 +64,14 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2vw;
   padding: 2vw;
+  height: calc(100vh - 4vw);
 }
 
 #sideone, #sidetwo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2vw;
-}
-
-body > div > div {
-  aspect-ratio: 1;
+  overflow: scroll;
 }
 
 :is(.eight, .four, .two, .one) {
@@ -81,6 +79,7 @@ body > div > div {
   grid-row-end: var(--span);
   background-position: center center;
   background-repeat: no-repeat;
+  aspect-ratio: 1;
 }
 
 .eight {
