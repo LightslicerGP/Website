@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   border-radius: 2vw;
   width: 50vw;
-  height: 38vw;
+  height: auto;
   margin: auto;
   padding: 2vw;
   color: #ffffff;
@@ -30,22 +30,19 @@
 
 #tempbox h1 {
   font-size: 4vw;
-  margin-bottom: 1vw;
-  margin-top: 0vw;
+  margin: 0vw;
   color: inherit;
 }
 
 #tempbox p {
   font-size: 2vw;
   font-weight: 100;
-  margin-bottom: 0vw;
-  margin-top: 0vw;
+  margin: 1vw 0vw 0vw 0vw;
   color: inherit;
 }
 
 #tempbox ul {
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  margin: 1vw 0vw 0vw 0vw;
   padding-left: 5vw;
   color: inherit;
 }
@@ -67,7 +64,7 @@
   padding: 1vw;
   cursor: pointer;
   border-radius: 1vw;
-  margin: 0vw;
+  margin: 1vw 0vw 0vw 0vw;
 }
 
 #tempbox button:hover {
@@ -77,8 +74,10 @@
 #tempbutton {
   width: 5vw !important;
   height: 5vw !important;
-  margin-left: 24% !important;
-  margin-top: 2% !important;
+  position: relative;
+  margin: 0vw !important;
+  top: 0vw;
+  left: 13vw;
 }
 
 #tempbutton img{
