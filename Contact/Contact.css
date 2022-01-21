@@ -1,0 +1,46 @@
+#parallax {
+  background-image: url('../Pictures/FH3_End.png');
+}
+
+#parallax p {
+  color: #000000;
+}
+
+#temporary {
+  height: 100vw;
+  width: 90vw;
+  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
+  order: 2;
+  margin-top: 5vw;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#temporary p {
+  color: var(--secondary-color);
+  width: auto;
+  margin: 7vw;
+  font-size: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (orientation: landscape) {
+  #temporary {
+    height: auto;
+  }
+
+  #temporary p {
+    font-size: 3vw;
+  }
+}
