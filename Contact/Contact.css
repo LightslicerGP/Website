@@ -1,28 +1,39 @@
 #parallax {
-  background-image: url('../Pictures/FH3_End.png');
+  background-image: url('../Pictures/Wallpaper1.png');
+  background-position: 0vw -100%;
 }
 
 #parallax p {
   color: #000000;
 }
 
-#temporary {
-  height: 100vw;
-  width: 90vw;
-  box-shadow: 1vw 1vw 3vw var(--shadow), -1vw -1vw 3vw var(--light);
-  order: 2;
+#buttons {
+  width: 100vw;
+  height: auto;
   margin-top: 5vw;
-  border-radius: 5vw;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
   align-items: center;
+  padding: 0vw 7vw 0vw 7vw;
 }
 
-#temporary p {
-  color: var(--secondary-color);
-  width: auto;
-  margin: 7vw;
-  font-size: 4vw;
+.contactbutton {
+  border-radius: 100vw;
+  width: 15vw;
+  height: 15vw;
+  margin: 6vw;
+  background-position: center;
+  background-size: 10vw 10vw;
+  background-repeat: no-repeat;
+  box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
+}
+
+.contactbutton:active {
+  box-shadow: inset 1vw 1vw 2vw var(--shadow), inset -1vw -1vw 2vw var(--light);
+
 }
 
 
@@ -36,11 +47,15 @@
 
 
 @media (orientation: landscape) {
-  #temporary {
-    height: auto;
+  #bottom {
   }
 
-  #temporary p {
-    font-size: 3vw;
+  #parallax {
+    height: 94vh;
+    width: auto;
+  }
+
+  #buttons {
+    width: 35vw;
   }
 }
