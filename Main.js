@@ -25,8 +25,16 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+};
+
+var expiration = 172800000;
+
+document.cookie = "name=Modal; expires=" + expiration +"; path=/";
+
+
 
 /*
-  document.getElementById("temp").modal.style.display = "none";
+expires is in milliseconds (for cookies) 1000ms x 60s x 60m x 24h x (days)
+
+document.getElementById("temp").modal.style.display = "none";
 */
