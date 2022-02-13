@@ -27,11 +27,39 @@ window.onclick = function(event) {
   }
 };
 
-var expiration = 172800000;
+document.cookie = "name=Modal; expires=172800000; path=/";
 
-document.cookie = "name=Modal; expires=" + expiration +"; path=/";
+function getCookie(name) {
+  var dc = document.cookie;
+  var prefix = name + "=";
+  var begin = dc.indexOf("; " + prefix);
+    
+  if (begin == -1) {
+      begin = dc.indexOf(prefix);
+      if (begin != 0) return null;
+  }
+  else
+  {
+      begin += 2;
+      var end = document.cookie.indexOf(";", begin);
+      if (end == -1) {
+      end = dc.length;
+      }
+  }
+  // because unescape has been deprecated, replaced with decodeURI
+  //return unescape(dc.substring(begin + prefix.length, end));
+  return decodeURI(dc.substring(begin + prefix.length, end));
+};
 
+function getcookie() {
+  if (getCookie("Modal") == null) {
+    console.log('Cookie exists');
+  } else {
+    console.log('cookie doesnt exist');
+  };
+}
 
+getcookie();
 
 /*
 expires is in milliseconds (for cookies) 1000ms x 60s x 60m x 24h x (days)
