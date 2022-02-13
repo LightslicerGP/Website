@@ -27,6 +27,7 @@ window.onclick = function(event) {
   }
 };
 
+/*
 document.cookie = "name=Modal; expires=172800000; path=/";
 
 function getCookie(name) {
@@ -61,7 +62,6 @@ function getcookie() {
 
 getcookie();
 
-/*
 expires is in milliseconds (for cookies) 1000ms x 60s x 60m x 24h x (days)
 
 document.getElementById("temp").modal.style.display = "none";
