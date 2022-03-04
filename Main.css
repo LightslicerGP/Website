@@ -1,91 +1,3 @@
-#temp {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.575);
-  z-index: 3;
-}
-
-#tempbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 2vw;
-  width: 50vw;
-  height: auto;
-  margin: auto;
-  padding: 2vw;
-  color: #ffffff;
-  background-color: #000000;
-  padding-top: 1vw;
-}
-
-#tempbox h1 {
-  font-size: 4vw;
-  margin: 0vw;
-  color: inherit;
-}
-
-#tempbox p {
-  font-size: 2vw;
-  font-weight: 100;
-  margin: 1vw 0vw 0vw 0vw;
-  color: inherit;
-}
-
-#tempbox ul {
-  margin: 1vw 0vw 0vw 0vw;
-  padding-left: 5vw;
-  color: inherit;
-}
-
-#tempbox li {
-  font-size: 2vw;
-  font-weight: 100;
-  color: inherit;
-}
-
-#tempbox button {
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
-  width: 20vw;
-  height: auto;
-  font-size: 2vw;
-  font-weight: normal;
-  padding: 1vw;
-  cursor: pointer;
-  border-radius: 1vw;
-  margin: 1vw 0vw 0vw 0vw;
-}
-
-#tempbox button:hover {
-  background-color: #b3b3b3;
-}
-
-#tempbutton {
-  width: 5vw !important;
-  height: 5vw !important;
-  position: relative;
-  margin: 0vw !important;
-  top: 0vw;
-  left: 13vw;
-}
-
-#tempbutton img{
-  width: 3vw;
-  height: 3vw;
-  transform: rotate(45deg);
-}
-
 #parallax {
   background-image: url('./Pictures/Rubick\'s_Cube_Background.png');
 }
@@ -98,7 +10,7 @@
   margin: auto;
   margin-top: 5vw;
   border-radius: 10vw;
-  box-shadow: inset 1vw 1vw 2vw var(--shadow), inset -1vw -1vw 2vw var(--light);
+  box-shadow: inset 2vw 2vw 3vw var(--shadow), inset -2vw -2vw 3vw var(--light);
   background: var(--main-color);
   display: flex;
   align-items: center;
@@ -142,7 +54,7 @@
   background-size: 150vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0vw 00vw;
+  background-position: 0vw 10vw;
 }
 
 #subsandviews {
