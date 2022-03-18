@@ -1,5 +1,5 @@
 #parallax {
-  background-image: url('./Pictures/Rubick\'s_Cube_Background.png');
+  background-image: url('./Pictures/Rubick\'s_Cube_Background.webp');
 }
 
 #parallax p {
@@ -50,7 +50,7 @@
   margin-top: 5vw;
   width: 90vw;
   height: 45vw;
-  background-image: url('./Pictures/Wallpaper1.png');
+  background-image: url('./Pictures/Wallpaper1.webp');
   background-size: 150vw;
   background-repeat: no-repeat;
   background-attachment: fixed;

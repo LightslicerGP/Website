@@ -156,9 +156,7 @@ header.open {
   cursor: pointer;
   padding: 0vw;
   border-radius: 1vw;
-  padding-top: 2vw;
-  padding-left: 38vw;
-  padding-bottom: 2vw;
+  padding: 2vw 2vw 2vw 38vw;
 }
 
 #dropdownimg {
@@ -186,7 +184,7 @@ nav {
 }
 
 #navbar {
-  padding-left: 5vw;
+  padding-left: 7vw;
   margin: 0vw;
 }
 
@@ -194,14 +192,16 @@ nav {
   padding: 0vw;
   font-size: 4vw;
   color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 #navbar a:hover {
   color: #181818;
 }
 
-#navbar li {
-  width: 25vw;
+#navbar img {
+  margin-right: 2vw;
 }
 
 #dropdown {
