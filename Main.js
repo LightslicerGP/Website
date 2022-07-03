@@ -10,9 +10,9 @@ let getYTInfo = () => {
     })
     .then(data => {
       console.log(data);
-      document.getElementById('subcount').innerHTML = data.items[0].statistics.subscriberCount;
-      document.getElementById('viewcount').innerHTML = data.items[0].statistics.viewCount;
-      document.getElementById('videocount').innerHTML = data.items[0].statistics.videoCount;
+      document.getElementById('subcount').textContent = data.items[0].statistics.subscriberCount;
+      document.getElementById('viewcount').textContent = data.items[0].statistics.viewCount;
+      document.getElementById('videocount').textContent = data.items[0].statistics.videoCount;
     })
 }
 
