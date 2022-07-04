@@ -2,13 +2,15 @@
 
 <head>
   <title>Home Page | LightslicerGP</title>
-  <meta name="google-site-verification" content="E4cs25miWThixuUGCLAmJw0gl9P0x5-QquqQqf-u8RM"/>
-  <meta name="description" content="This is the Home page, go ahead and explore what I have made and what might come in the future!">
+  <meta name="google-site-verification" content="E4cs25miWThixuUGCLAmJw0gl9P0x5-QquqQqf-u8RM" />
+  <meta name="description"
+    content="This is the Home page, go ahead and explore what I have made and what might come in the future!">
   <link rel="preload" href="../Common/Navbar.js" as="script">
   <link rel="preload" href="../Common/Navbar.css" as="style">
   <link rel="preload" href="Main.css" as="style">
   <link rel="preload" href="Main.js" as="script">
-  <meta name="keywords" content="LightslicerGP, Google Site, Github Site, Netlify Site, LightslicerGP Google Site, LightslicerGP Github Site, LightslicerGP Netlify Site, Neumorphism, Glassmorphism, Main Page, LightslicerGP Main Page">
+  <meta name="keywords"
+    content="LightslicerGP, Google Site, Github Site, Netlify Site, LightslicerGP Google Site, LightslicerGP Github Site, LightslicerGP Netlify Site, Neumorphism, Glassmorphism, Main Page, LightslicerGP Main Page">
   <link rel="stylesheet" href="Common/Navbar.css">
   <link rel="stylesheet" href="Main.css">
   <link rel="shortcut icon" type="image/png" href="Pictures/LSPGv3.png">
@@ -32,19 +34,27 @@
     <nav>
       <ul id="navbar">
         <li>
-            <a href="Creations/Creations.html"><img src="./Pictures/Creations.png">Creations</a>
+          <div id="dropdown">
+            <a href="Creations/Creations.html">Creations</a>
+            <img src="Pictures/arrow.png" id="dropdownimg" onclick="clicked()">
+            <div id="dropdown-content" style="display: none;">
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/texture-packs">SimplyCubed</a>
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/skin-packs">SimplySkin</a>
+              <a href="https://sites.google.com/view/lightslicergp/creations/minecraft/maps">SimplySurvival</a>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="https://github.com/LightslicerGP/Website"><img src="./Pictures/Github_Home.png">Github</a>
+          <a href="https://github.com/LightslicerGP/Website">Github</a>
         </li>
         <li>
-          <a href="Showcase/Showcase.html"><img src="./Pictures/Showcase.png">Showcase</a>
+          <a href="Showcase/Showcase.html">Showcase</a>
         </li>
         <li>
-          <a href="About Me/AboutMe.html"><img src="./Pictures/AboutMe.png">About Me</a>
+          <a href="About Me/AboutMe.html">About Me</a>
         </li>
         <li>
-          <a href="Blogs/Blogs.html"><img src="./Pictures/Blogs.png">Blogs </a>
+          <a href="Blogs/Blogs.html">Blogs </a>
         </li>
       </ul>
     </nav>
@@ -69,7 +79,11 @@
         <div id="videocount" class="counters">(videos)</div>
         <div class="subtitles">Videos</div>
       </div>
-      <p id="introparagraph"> Welcome to the official webpage of LightslicerGP. Here, you will find pictures, creations, and information about me! Take a look around, and if you have any thoughts to add to the website, message me on discord. My username is LightslicerGP#2125. I have created many things. My most proud creation is SimplyCubed. It is a texture pack that simplifies each block (and soon to be mob) texture for Minecraft bedrock edition. If you need to contact me, you can find me in the contact page. I also take pictures from Forza Horizon 3.
+      <p id="introparagraph"> Welcome to the official webpage of LightslicerGP. Here, you will find pictures, creations,
+        and information about me! Take a look around, and if you have any thoughts to add to the website, message me on
+        discord. My username is LightslicerGP#2125. I have created many things. My most proud creation is SimplyCubed.
+        It is a texture pack that simplifies each block (and soon to be mob) texture for Minecraft bedrock edition. If
+        you need to contact me, you can find me in the contact page. I also take pictures from Forza Horizon 3.
       </p>
     </div>
     <div id="carousel">

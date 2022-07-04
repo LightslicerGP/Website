@@ -184,7 +184,7 @@ nav {
 }
 
 #navbar {
-  padding-left: 7vw;
+  padding-left: 5vw;
   margin: 0vw;
 }
 
@@ -192,16 +192,14 @@ nav {
   padding: 0vw;
   font-size: 4vw;
   color: #ffffff;
-  display: flex;
-  align-items: center;
 }
 
 #navbar a:hover {
   color: #181818;
 }
 
-#navbar img {
-  margin-right: 2vw;
+#navbar li {
+  width: 25vw;
 }
 
 #dropdown {
