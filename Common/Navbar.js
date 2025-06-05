@@ -3,7 +3,7 @@ window.addEventListener("load", function() {
   loader.className += " hidden";
   setTimeout(function() {
     loader.remove();
-  }, 1500);
+  }, 1000);
 })
 
 

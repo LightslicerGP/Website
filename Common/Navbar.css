@@ -119,7 +119,7 @@ header.open {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  background-color: #00e0ff;
+  background-color: #007fff;
   position: fixed;
   width: 50vw;
   height: 100vh;
