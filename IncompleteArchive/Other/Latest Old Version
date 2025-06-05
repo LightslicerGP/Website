@@ -1,0 +1,228 @@
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #181818;
+  color: white;
+}
+
+.parallax {
+  background-image: url("https://drive.google.com/uc?export=view&id=1wAN0fR0Ck0rUL3QeHzoQ6v4Ipp_6QkSe");
+  min-height: 40vw;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+	border-radius: 10vw;
+	border: 1px solid #181818;
+}
+.parallax p{
+  display: flex;
+	justify-content: center;
+  font-size: 10vw;
+  color: black;
+	background: cyan;
+	margin: 14vw;
+	border-radius: 5vw;
+}
+.title {
+  margin: 2vw;
+  border-radius: 10vw;
+  box-shadow: inset 1vw 1vw 3vw #080808, inset -1vw -1vw 3vw #282828;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  width: 94vw;
+  height: 42vw;
+}
+
+.title p {
+  width: 50vw;
+  padding: 5vw;
+  margin-left: 2vw;
+  text-align: right;
+  font-size: 5vw;
+}
+
+.logo {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 10vw;
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
+  background: #181818;
+  padding: 2vw;
+  margin: 4vw 4vw;
+  margin-left: auto;
+}
+
+.intro {
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
+  background: #1c1c1c;
+  border-radius: 10vw;
+  display: grid;
+  grid: auto / auto auto;
+  grid-gap: 2vw;
+  margin: 4vw;
+}
+
+.subsandviews {
+  display: grid;
+  padding: 7vw;
+  margin: auto;
+}
+
+.counters {
+  font-size: 5vw;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.subtitles {
+  font-size: 3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 2vw;
+}
+
+.introparagraph {
+  margin-left: auto;
+  padding: 5vw;
+  text-indent: 5vw;
+  font-size: 2vw;
+}
+
+.container {
+  width: auto;
+  margin: 4vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  border-radius: 6vw;
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
+  background: #1c1c1c;
+}
+
+.item {
+  display: inline;
+  align-items: center;
+  object-fit: contain;
+}
+
+.carouselshowcase {
+  flex: 0 0 5vw;
+  margin: 1vw;
+  height: auto;
+  width: 85vw;
+  border-radius: 5vw;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  border-radius: 10vw;
+  display: inline-flex;
+  padding: 1vw 3vw;
+  background: #282828;
+  margin: 0 2vw;
+}
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link re="preconnect" href="https://drive.google.com">
+
+<body>
+  <div class="parallax">
+    <p>Hello!</p>
+  </div>
+  <div class="title">
+    <p>Welcome to the official homepage!</p>
+    <img class="logo" src="https://drive.google.com/uc?export=view&id=13-tqq4CPvcPQGgv3yoH7GK7xCPfEeB40">
+  </div>
+
+  <div class="intro">
+
+    <div class="subsandviews">
+      <div id="subcount" class="counters">(insert subcount here)</div>
+      <div class="subtitles">Subscribers</div>
+
+      <div id="viewcount" class="counters">(insert viewcount here)</div>
+      <div class="subtitles">Views</div>
+
+      <div id="videocount" class="counters">(insert videocount here)</div>
+      <div class="subtitles">Videos</div>
+
+    </div>
+    <p class="introparagraph"> Welcome to the official webpage of LightslicerGP. Here, you will find pictures, creations, and information about me! Take a look around, and if you have any thoughts to add to the website, message me on discord. My username is LightslicerGP#2125. I have created many things. My most proud creation is SimplyCubed. It is a texture pack that simplifies each block (and soon to be mob) texture for Minecraft bedrock edition. If you need to contact me, you can find me in the contact page. I also take pictures from Forza Horizon 3.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="item" id="item1">
+      <img class="carouselshowcase" src="https://drive.google.com/uc?export=view&id=12UZ4UpW49AMLqS_9eC0NTGjLo8KUggrz">
+    </div>
+    <div class="item" id="item2">
+      <img class="carouselshowcase" src="https://drive.google.com/uc?export=view&id=1I8OVyAVkVVYb2PeaygmnlOGvh3O8JTlf">
+    </div>
+    <div class="item" id="item3">
+      <img class="carouselshowcase" src="https://drive.google.com/uc?export=view&id=1BUUEmkX8nRfs3rhGt3JV5wZmPOUk-SZw">
+    </div>
+    <div class="item" id="item4">
+      <img class="carouselshowcase" src="https://drive.google.com/uc?export=view&id=1cSTemv5hB3AI7SMEQ05f7ZpYa605krDe">
+    </div>
+  </div>
+  <div class="links">
+    <a href="#item1"></a>
+    <a href="#item2"></a>
+    <a href="#item3"></a>
+    <a href="#item4"></a>
+  </div>
+
+</body>
+<script>
+const youtubeKey = 'AIzaSyALqIoHfT_TGIAm3cGfblgX2F0PmtqRxuA'
+const youtubeUser = 'UCiGIp50poRZRIAuRt604uRg'
+const subCount = document.getElementById('subcount')
+const viewCount = document.getElementById('viewcount')
+const videoCount = document.getElementById('videocount')
+
+let getSubscribers = () => {
+  fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      console.log(data);
+      subCount.innerHTML = data.items[0].statistics.subscriberCount;
+    })
+}
+getSubscribers();
+
+let getViews = () => {
+  fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      console.log(data);
+      viewCount.innerHTML = data.items[0].statistics.viewCount;
+    })
+}
+getViews();
+
+let getVideos = () => {
+  fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      console.log(data);
+      videoCount.innerHTML = data.items[0].statistics.videoCount;
+    })
+}
+getVideos();
+</script>

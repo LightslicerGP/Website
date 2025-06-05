@@ -1,0 +1,62 @@
+@media (min-width: 0px) {
+}
+
+/* Phones */
+
+/* Small */
+@media (min-width: 350px) {
+    .hello > p {
+      grid-column: 1 / span 4;
+      font-size: calc((var(--column-width) + var(--column-gap))*0.5);
+      text-align: center;
+    }
+}
+
+/* Medium */
+@media (min-width: 375px) {
+}
+
+/* Large */
+@media (min-width: 400px) {
+}
+
+/* Tablets */
+
+/* Small */
+@media (min-width: 750px) {
+  .hello > p {
+    grid-column: 1 / span 3;
+    font-size: calc((var(--column-width) + var(--column-gap))*0.6);
+    text-align: left;
+}
+}
+
+/* Medium */
+@media (min-width: 800px) {
+}
+
+/* Large */
+@media (min-width: 1000px) {
+}
+
+/* Desktops */
+
+/* 720 */
+@media (min-width: 1280px) {
+  .hello > p {
+    grid-column: 1 / span 6;
+    font-size: calc(var(--column-width) + var(--column-gap));
+  }
+}
+
+/* 1080 */
+@media (min-width: 1920px) {
+}
+
+/* 1440 */
+@media (min-width: 2560px) {
+}
+
+/* 4k */
+@media (min-width: 3840px) {
+}
