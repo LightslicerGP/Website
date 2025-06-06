@@ -3,7 +3,7 @@
 }
 
 #parallax {
-  background-image: url('../Pictures/SimplySurvival_Entrance.png');
+  background-image: url("../Pictures/SimplySurvival_Entrance.png");
 }
 
 #parallax p {
@@ -39,7 +39,8 @@ ins {
   text-decoration: underline;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 2vw;
 }
 
@@ -67,15 +68,6 @@ h6 {
   font-size: 3vw;
 }
 
-
-
-
-
-
-
-
-
-
 @media (orientation: landscape) {
   #parallax {
     height: 85vh;
@@ -98,23 +90,23 @@ h6 {
   h1 {
     font-size: 7vw;
   }
-  
+
   h2 {
     font-size: 6vw;
   }
-  
+
   h3 {
     font-size: 5vw;
   }
-  
+
   h4 {
     font-size: 4vw;
   }
-  
+
   h5 {
     font-size: 3vw;
   }
-  
+
   h6 {
     font-size: 2vw;
   }

@@ -1,5 +1,5 @@
 #parallax {
-  background-image: url('../Pictures/SimplySurvival_Entrance.png');
+  background-image: url("../Pictures/SimplySurvival_Entrance.png");
 }
 
 #parallax p {
@@ -28,7 +28,7 @@
 }
 
 .title {
-  background-image: url('../Pictures/SimplyCubed_Bastion.png');
+  background-image: url("../Pictures/SimplyCubed_Bastion.png");
   background-size: 90vw;
   border-radius: 3vw;
   margin: 2vw;
@@ -48,16 +48,6 @@
   backdrop-filter: blur(4px);
   border: 0.1vw solid rgba(255, 255, 255, 0.25);
 }
-
-
-
-
-
-
-
-
-
-
 
 @media (orientation: landscape) {
   #parallax {
